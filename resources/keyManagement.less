@@ -1,0 +1,110 @@
+.client-details-panel {
+	.oo-ui-fieldLayout {
+		margin-top: 10px;
+		margin-bottom: 20px;
+
+		.oo-ui-fieldLayout-header label {
+			font-weight: 600;
+		}
+	}
+
+	.oo-ui-buttonWidget {
+		width: 100%;
+
+		a {
+			width: inherit;
+		}
+	}
+}
+
+.apiportal-key-overview-item {
+	display: table;
+	height: 150px;
+	border: 1px solid #c8ccd1;
+	padding: 30px;
+	width: 100%;
+	margin-bottom: 10px;
+
+	.data-container {
+		vertical-align: middle;
+		display: table-cell;
+
+		.data-name {
+			font-size: 1.5em;
+			margin: 0;
+			font-weight: 600;
+			display: block;
+		}
+
+		.registration-time-label {
+			margin-top: 2px;
+		}
+
+		.client-status {
+			height: 25px;
+			margin-left: 10px;
+			padding-left: 10px;
+			border-left: 2px solid #c8ccd1;
+
+			.oo-ui-iconWidget {
+				background-size: 20px;
+			}
+		}
+	}
+
+	.action-container {
+		text-align: right;
+		vertical-align: middle;
+		display: table-cell;
+
+		.oo-ui-buttonWidget {
+			display: inline-block;
+
+			a {
+				font-weight: 200;
+			}
+
+			&.actions-details {
+				text-transform: uppercase;
+				text-decoration: underline;
+
+				a {
+					font-weight: 600;
+				}
+			}
+		}
+	}
+}
+
+.apiportal-oauth-loader {
+	margin: 20px;
+}
+
+.oo-ui-window {
+	/* stylelint-disable */
+	z-index: 9999 !important;
+	/* stylelint-enable */
+}
+
+.client-booklet {
+	min-height: 300px;
+	height: auto;
+
+	.oo-ui-bookletLayout-stackLayout {
+		height: inherit;
+
+		.oo-ui-panelLayout-expanded {
+			height: inherit;
+			position: relative;
+		}
+	}
+}
+
+.oo-ui-messageWidget {
+	margin-bottom: 20px;
+}
+
+.access-token-label {
+	width: 90%;
+	word-break: break-all;
+}

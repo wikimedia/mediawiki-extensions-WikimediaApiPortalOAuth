@@ -1,18 +1,113 @@
 {
 	"name": "WikimediaApiPortalOAuth",
-	"version": "0.0.1",
+	"version": "",
+	"license-name": "GPL-2.0-or-later",
 	"author": [
 		"Dejan Savuljesku",
 		"Robert Vogel"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:WikimediaApiPortalOAuth",
 	"descriptionmsg": "wikimediaapiportaloauth-desc",
-	"license-name": "GPL-2.0-or-later",
 	"requires": {
 		"MediaWiki": ">= 1.35.0"
 	},
 	"MessagesDirs": {
-		"WikimediaApiPortalOAuth": [ "i18n" ]
+		"WikimediaApiPortalOAuth": "i18n"
+	},
+	"ExtensionMessagesFiles": {
+		"WikimediaApiPortalOAuthAlias": "WikimediaApiPortalOAuth.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\WikimediaApiPortalOAuth\\": "src/"
+	},
+	"AvailableRights": [
+		"wikimediaapiportaloauth-manage-oauth"
+	],
+	"GroupPermissions": {
+		"user": {
+			"wikimediaapiportaloauth-manage-oauth": true
+		}
+	},
+	"ResourceModules": {
+		"ext.wikimediaapiportaloauth.keyManagement": {
+			"scripts": [
+				"Util.js",
+				"ClientEntity.js",
+				"dialog/Client.js",
+				"widget/booklet/Base.js",
+				"widget/booklet/Details.js",
+				"widget/booklet/NewClient.js",
+				"widget/booklet/page/Base.js",
+				"widget/booklet/page/DetailsReset.js",
+				"widget/booklet/page/Details.js",
+				"widget/booklet/page/NewClient.js",
+				"widget/booklet/page/DetailsNewClient.js",
+				"widget/Client.js",
+				"widget/KeyOverview.js",
+				"keyManagement.js"
+			],
+			"styles": [
+				"keyManagement.less"
+			],
+			"dependencies": [
+				"oojs-ui",
+				"mediawiki.ForeignApi"
+			],
+			"messages": [
+				"wikimediaapiportaloauth-ui-client-action-view-details",
+				"wikimediaapiportaloauth-ui-client-action-disable",
+				"wikimediaapiportaloauth-ui-client-details-title",
+				"wikimediaapiportaloauth-ui-client-field-name",
+				"wikimediaapiportaloauth-ui-client-field-desc",
+				"wikimediaapiportaloauth-ui-client-field-callback-uri",
+				"wikimediaapiportaloauth-ui-client-field-client-key",
+				"wikimediaapiportaloauth-ui-client-field-account-type",
+				"wikimediaapiportaloauth-ui-client-field-account-type-developer",
+				"wikimediaapiportaloauth-ui-client-field-account-type-bot",
+				"wikimediaapiportaloauth-ui-client-field-permissions",
+				"wikimediaapiportaloauth-ui-client-field-permissions-read",
+				"wikimediaapiportaloauth-ui-client-field-permissions-read-write",
+				"wikimediaapiportaloauth-ui-client-field-confidential",
+				"wikimediaapiportaloauth-ui-client-field-terms-of-service",
+				"wikimediaapiportaloauth-ui-new-client-title",
+				"wikimediaapiportaloauth-ui-action-reset-secret",
+				"wikimediaapiportaloauth-ui-action-cancel",
+				"wikimediaapiportaloauth-ui-action-create",
+				"wikimediaapiportaloauth-ui-registration-label",
+				"wikimediaapiportaloauth-ui-error-must-be-set",
+				"wikimediaapiportaloauth-ui-error-consumer-exists",
+				"wikimediaapiportaloauth-ui-error-invalid-callback-url",
+				"wikimediaapiportaloauth-ui-error-cannot-get-token",
+				"wikimediaapiportaloauth-ui-error-request-client-fail",
+				"wikimediaapiportaloauth-ui-field-secret",
+				"wikimediaapiportaloauth-ui-client-details-reset-title",
+				"wikimediaapiportaloauth-ui-action-done",
+				"wikimediaapiportaloauth-ui-client-secret-alert",
+				"wikimediaapiportaloauth-ui-field-access-token",
+				"wikimediaapiportaloauth-ui-client-created",
+				"wikimediaapiportaloauth-ui-client-status-proposed",
+				"wikimediaapiportaloauth-ui-client-status-proposed-help",
+				"wikimediaapiportaloauth-ui-client-status-rejected",
+				"wikimediaapiportaloauth-ui-client-status-expired",
+				"wikimediaapiportaloauth-ui-client-status-disabled",
+				"wikimediaapiportaloauth-ui-client-status-approved",
+				"wikimediaapiportaloauth-ui-action-new-client",
+				"wikimediaapiportaloauth-ui-client-status-wrapper"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "WikimediaApiPortalOAuth/resources"
+	},
+	"SpecialPages": {
+		"AppManagement": "MediaWiki\\Extension\\WikimediaApiPortalOAuth\\Special\\AppManagement"
+	},
+	"config": {
+		"WikimediaApiPortalOAuthMetaRestURL": {
+			"value": "",
+			"description": "URL to rest.php on Meta"
+		}
 	},
 	"manifest_version": 2
 }
