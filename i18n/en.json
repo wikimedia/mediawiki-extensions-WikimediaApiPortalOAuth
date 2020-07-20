@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dejan Savuljesku",
+			"Robert Vogel"
+		]
+	},
+	"wikimediaapiportaloauth-desc": "Enables users of the Wikimedia API Portal to create and manage OAuth clients remotely"
+}
