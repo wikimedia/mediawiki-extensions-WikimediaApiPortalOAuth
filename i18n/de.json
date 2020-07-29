@@ -1,0 +1,6 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"wikimediaapiportaloauth-desc": "Ermöglicht es Benutzern des Wikimedia API-Portals, OAuth-Clients per Fernzugriff zu erstellen und zu verwalten"
+}
