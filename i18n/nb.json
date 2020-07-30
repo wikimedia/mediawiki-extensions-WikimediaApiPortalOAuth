@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"wikimediaapiportaloauth-desc": "Lar brukere på Wikimedias API-portal opprette og behandle OAuth-klienter eksternt"
+}

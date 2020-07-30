@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"wikimediaapiportaloauth-desc": "Umożliwia użytkownikom Portalu API Wikimedii zdalne tworzenie i zarządzanie klientami OAuth"
+}

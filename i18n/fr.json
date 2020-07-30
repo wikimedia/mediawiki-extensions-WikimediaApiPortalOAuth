@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"wikimediaapiportaloauth-desc": "Permet aux utilisateurs du portail de l’API de Wikimédia de créer et gérer des clients OAuth à distance"
+}
