@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"wikimediaapiportaloauth-desc": "讓維基媒體 API 入口使用者能遠端建立與管理 OAuth 客戶端"
+}
