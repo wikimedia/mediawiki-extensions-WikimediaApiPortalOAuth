@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"MuratTheTurkish"
+		]
+	},
+	"wikimediaapiportaloauth-desc": "Wikimedia API Portali kullanıcılarının OAuth istemcilerini uzaktan oluşturmalarını ve yönetmelerini sağlar"
+}
