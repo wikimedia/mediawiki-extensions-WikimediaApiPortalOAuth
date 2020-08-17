@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"wikimediaapiportaloauth-desc": "Permite que os usuários do Portal de API da Wikimedia criem e gerenciem clientes OAuth remotamente"
+}
