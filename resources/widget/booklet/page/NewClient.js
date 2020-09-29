@@ -15,8 +15,8 @@
 	OO.inheritClass( NewClient, mw.apiportal.booklet.page.Base );
 
 	NewClient.static.grantMapping = {
-		read: [ 'basic', 'highvolume', 'viewdeleted', 'oversight' ],
-		write: [ 'basic', 'highvolume', 'viewdeleted', 'oversight', 'createeditmovepage' ]
+		read: [ 'basic' ],
+		write: [ 'basic', 'createeditmovepage', 'editprotected' ]
 	};
 
 	NewClient.prototype.getLabel = function () {
