@@ -48,5 +48,6 @@
 	"wikimediaapiportaloauth-ui-client-status-disabled": "Status text when client is in the disabled state",
 	"wikimediaapiportaloauth-ui-client-status-approved": "Status text when client is in the approved state",
 	"wikimediaapiportaloauth-ui-action-new-client": "Label for the action button to create a new client",
-	"wikimediaapiportaloauth-ui-client-status-wrapper": "Wrapper message for the client status.\n$1 - actual status message"
+	"wikimediaapiportaloauth-ui-client-status-wrapper": "Wrapper message for the client status.\n$1 - actual status message",
+	"wikimediaapiportaloauth-email-not-confirmed": "Error message when user email is not confirmed"
 }
