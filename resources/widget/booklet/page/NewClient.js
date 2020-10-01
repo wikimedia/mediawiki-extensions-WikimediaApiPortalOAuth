@@ -16,7 +16,7 @@
 
 	NewClient.static.grantMapping = {
 		read: [ 'basic' ],
-		write: [ 'basic', 'createeditmovepage', 'editprotected' ]
+		write: [ 'basic', 'mwoauth-authonly', 'mwoauth-authonlyprivate' ]
 	};
 
 	NewClient.prototype.getLabel = function () {
