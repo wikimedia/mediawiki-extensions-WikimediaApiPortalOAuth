@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac"
+		]
+	},
+	"wikimediaapiportaloauth-ui-client-action-disable": "Անջատել",
+	"wikimediaapiportaloauth-ui-action-cancel": "Չեղարկել",
+	"wikimediaapiportaloauth-ui-action-create": "Ստեղծել",
+	"wikimediaapiportaloauth-ui-action-done": "Արված է",
+	"wikimediaapiportaloauth-ui-client-status-disabled": "Անջատված է",
+	"wikimediaapiportaloauth-ui-client-status-approved": "Հաստատվել է"
+}

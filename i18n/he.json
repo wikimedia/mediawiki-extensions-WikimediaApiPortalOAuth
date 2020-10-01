@@ -36,5 +36,16 @@
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "בקשת הלקוח נכשלה!",
 	"wikimediaapiportaloauth-ui-field-secret": "סוד הלקוח",
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "אתחול הסוד",
-	"wikimediaapiportaloauth-ui-action-done": "בוצע"
+	"wikimediaapiportaloauth-ui-action-done": "בוצע",
+	"wikimediaapiportaloauth-ui-client-secret-alert": "{{GENDER:|שמור|שמרי}} על הנתונים האלה באופן מאובטח! לא {{GENDER:|תוכל|תוכלי}} לראות את סודות הלקוח שלך שוב.",
+	"wikimediaapiportaloauth-ui-field-access-token": "אסימון גישה",
+	"wikimediaapiportaloauth-ui-client-created": "הלקוח נוצר בהצלחה!",
+	"wikimediaapiportaloauth-ui-client-status-proposed": "בהמתנה לאישור",
+	"wikimediaapiportaloauth-ui-client-status-proposed-help": "אחרי יצירת יישום מפַתח, מפעילים צריכים לאשר אותו לפני שאפשר להשתמש בו לאישור",
+	"wikimediaapiportaloauth-ui-client-status-rejected": "נדחה",
+	"wikimediaapiportaloauth-ui-client-status-expired": "פג",
+	"wikimediaapiportaloauth-ui-client-status-disabled": "כבוי",
+	"wikimediaapiportaloauth-ui-client-status-approved": "מאושר",
+	"wikimediaapiportaloauth-ui-action-new-client": "לקוח חדש",
+	"wikimediaapiportaloauth-ui-client-status-wrapper": "מצב: $1"
 }

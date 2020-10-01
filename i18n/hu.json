@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hanna Tardos"
+		]
+	},
+	"appmanagement": "Alkalmazás kezelése",
+	"wikimediaapiportaloauth-ui-client-action-view-details": "Részletek megtekintése",
+	"wikimediaapiportaloauth-ui-client-action-disable": "Letiltás",
+	"wikimediaapiportaloauth-ui-client-details-title": "Alkalmazás részletei",
+	"wikimediaapiportaloauth-ui-client-field-name": "Alkalmazás neve",
+	"wikimediaapiportaloauth-ui-client-field-desc": "Alkalmazás leírása",
+	"wikimediaapiportaloauth-ui-client-field-callback-uri": "Callback URI",
+	"wikimediaapiportaloauth-ui-client-field-client-key": "Kliens ID",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Kizárólag olvasásra",
+	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Elfogadom a szerződési feltételeket",
+	"wikimediaapiportaloauth-ui-action-create": "Létrehozás",
+	"wikimediaapiportaloauth-ui-registration-label": "Létrehozva $1",
+	"wikimediaapiportaloauth-ui-error-must-be-set": "Kitöltendő mező",
+	"wikimediaapiportaloauth-ui-error-consumer-exists": "A megadott név már foglalt",
+	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "Érvénytelen callback URL",
+	"wikimediaapiportaloauth-ui-action-done": "Kész",
+	"wikimediaapiportaloauth-ui-field-access-token": "Hozzáférés token",
+	"wikimediaapiportaloauth-ui-client-status-proposed": "Jóváhagyásra vár",
+	"wikimediaapiportaloauth-ui-client-status-rejected": "Elutasítva",
+	"wikimediaapiportaloauth-ui-client-status-expired": "Lejárt",
+	"wikimediaapiportaloauth-ui-client-status-disabled": "Kikapcsolva",
+	"wikimediaapiportaloauth-ui-client-status-approved": "Jóváhagyott",
+	"wikimediaapiportaloauth-ui-action-new-client": "Új kliens",
+	"wikimediaapiportaloauth-ui-client-status-wrapper": "Állapot: $1"
+}

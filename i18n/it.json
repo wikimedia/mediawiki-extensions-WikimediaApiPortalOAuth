@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"appmanagement": "Gestione applicazione",
+	"wikimediaapiportaloauth-ui-client-details-title": "Dettagli applicazione",
+	"wikimediaapiportaloauth-ui-client-field-name": "Nome applicazione",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Sola lettura",
+	"wikimediaapiportaloauth-ui-error-must-be-set": "Il campo deve essere impostato",
+	"wikimediaapiportaloauth-ui-action-done": "Fatto"
+}
