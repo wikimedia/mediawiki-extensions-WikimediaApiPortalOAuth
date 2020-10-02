@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"appmanagement": "앱 관리",
+	"right-wikimediaapiportaloauth-manage-oauth": "OAuth 클라이언트 관리",
+	"wikimediaapiportaloauth-ui-client-details-title": "앱 상세 정보",
+	"wikimediaapiportaloauth-ui-client-field-name": "앱 이름",
+	"wikimediaapiportaloauth-ui-client-field-client-key": "클라이언트 ID",
+	"wikimediaapiportaloauth-ui-client-field-account-type-developer": "개발자 계정",
+	"wikimediaapiportaloauth-ui-client-field-account-type-bot": "봇 계정",
+	"wikimediaapiportaloauth-ui-client-field-permissions": "권한",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "읽기 전용",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "읽기/쓰기",
+	"wikimediaapiportaloauth-ui-action-cancel": "취소",
+	"wikimediaapiportaloauth-ui-action-create": "만들기",
+	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "유효하지 않은 콜백 URL",
+	"wikimediaapiportaloauth-ui-error-request-client-fail": "클라이언트 요청을 실패했습니다!",
+	"wikimediaapiportaloauth-ui-action-done": "완료",
+	"wikimediaapiportaloauth-ui-client-status-rejected": "거부됨"
+}

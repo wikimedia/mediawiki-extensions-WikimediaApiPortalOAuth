@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Teitei Para"
+		]
+	},
+	"appmanagement": "App mopadona",
+	"wikimediaapiportaloauth-ui-client-action-view-details": "Chhichânazy palâ",
+	"wikimediaapiportaloauth-ui-client-action-disable": "Khaw hawpa",
+	"wikimediaapiportaloauth-ui-client-details-title": "App chhichânazy",
+	"wikimediaapiportaloauth-ui-client-field-name": "App moh",
+	"wikimediaapiportaloauth-ui-client-field-desc": "App palâsana",
+	"wikimediaapiportaloauth-ui-client-field-account-type": "Account pho",
+	"wikimediaapiportaloauth-ui-client-field-permissions": "Pasaina",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Reipa-deita",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Reih/roh",
+	"wikimediaapiportaloauth-ui-new-client-title": "App tao",
+	"wikimediaapiportaloauth-ui-action-cancel": "Châvei",
+	"wikimediaapiportaloauth-ui-action-create": "Tao",
+	"wikimediaapiportaloauth-ui-registration-label": "$1 taopa a châ haw",
+	"wikimediaapiportaloauth-ui-error-must-be-set": "He kao he pabie teih",
+	"wikimediaapiportaloauth-ui-error-consumer-exists": "He moh ta hmâhtuhpa he cha mohpangia hawpa a châ",
+	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "Ado leipa callback URL",
+	"wikimediaapiportaloauth-ui-action-done": "Patlô",
+	"wikimediaapiportaloauth-ui-client-status-rejected": "Dytha hawpa",
+	"wikimediaapiportaloauth-ui-client-status-disabled": "Khaw hawpa"
+}

@@ -4,5 +4,31 @@
 			"MuratTheTurkish"
 		]
 	},
-	"wikimediaapiportaloauth-desc": "Wikimedia API Portali kullanıcılarının OAuth istemcilerini uzaktan oluşturmalarını ve yönetmelerini sağlar"
+	"wikimediaapiportaloauth-desc": "Wikimedia API Portali kullanıcılarının OAuth istemcilerini uzaktan oluşturmalarını ve yönetmelerini sağlar",
+	"appmanagement": "Uygulama Yönetimi",
+	"action-wikimediaapiportaloauth-manage-oauth": "OAuth istemcilerini yönet",
+	"right-wikimediaapiportaloauth-manage-oauth": "OAuth istemcilerini yönet",
+	"wikimediaapiportaloauth-api-error-invalid-action": "'$1' eylemi geçersiz",
+	"wikimediaapiportaloauth-ui-client-action-view-details": "Ayrıntıları görüntüle",
+	"wikimediaapiportaloauth-ui-client-action-disable": "Devre dışı bırak",
+	"wikimediaapiportaloauth-ui-client-details-title": "Uygulama ayrıntıları",
+	"wikimediaapiportaloauth-ui-client-field-name": "Uygulama adı",
+	"wikimediaapiportaloauth-ui-client-field-desc": "Uygulama açıklaması",
+	"wikimediaapiportaloauth-ui-client-field-callback-uri": "Geri çağrı URI'si",
+	"wikimediaapiportaloauth-ui-client-field-client-key": "İstemci kimliği",
+	"wikimediaapiportaloauth-ui-client-field-account-type": "Hesap türü",
+	"wikimediaapiportaloauth-ui-client-field-account-type-developer": "Geliştirici hesabı",
+	"wikimediaapiportaloauth-ui-client-field-account-type-bot": "Bot hesabı",
+	"wikimediaapiportaloauth-ui-client-field-permissions": "İzinler",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Yalnızca oku",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Oku/yaz",
+	"wikimediaapiportaloauth-ui-client-field-confidential": "Uygulama kimlik bilgilerimi güvende tutabilirim",
+	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Kullanım Şartlarını kabul ediyorum",
+	"wikimediaapiportaloauth-ui-new-client-title": "Uygulama oluştur",
+	"wikimediaapiportaloauth-ui-action-reset-secret": "İstemci sırrını yeni bir değere sıfırlayın",
+	"wikimediaapiportaloauth-ui-action-cancel": "İptal",
+	"wikimediaapiportaloauth-ui-action-create": "Oluştur",
+	"wikimediaapiportaloauth-ui-registration-label": "$1 tarihinde oluşturuldu",
+	"wikimediaapiportaloauth-ui-error-must-be-set": "Bu alan ayarlanmalıdır",
+	"wikimediaapiportaloauth-ui-error-consumer-exists": "Bu ada sahip istemci zaten kayıtlı"
 }
