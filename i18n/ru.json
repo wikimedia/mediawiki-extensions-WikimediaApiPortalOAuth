@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac"
+		]
+	},
+	"wikimediaapiportaloauth-ui-action-cancel": "Отмена",
+	"wikimediaapiportaloauth-ui-action-create": "Создать",
+	"wikimediaapiportaloauth-ui-action-done": "Готово"
+}

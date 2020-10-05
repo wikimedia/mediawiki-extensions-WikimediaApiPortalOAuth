@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Dejan Savuljesku",
+			"Robby",
 			"Robert Vogel"
 		]
 	},
@@ -37,7 +38,7 @@
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Generic error message when unanticipated error occurs in the API call",
 	"wikimediaapiportaloauth-ui-field-secret": "Field label for the field client secret",
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "Title for the secret reset dialog",
-	"wikimediaapiportaloauth-ui-action-done": "Label for the action button for 'done' action, dismissing the dialog after the action has been performed",
+	"wikimediaapiportaloauth-ui-action-done": "Label for the action button for 'done' action, dismissing the dialog after the action has been performed\n{{identical|Done}}",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "Text warning the user that client secret is shown only on the client creation or secret reset, and cannot be retrieved afterwards",
 	"wikimediaapiportaloauth-ui-field-access-token": "Field label for the field access token",
 	"wikimediaapiportaloauth-ui-client-created": "Success message when the client has been successfully created",
@@ -45,7 +46,7 @@
 	"wikimediaapiportaloauth-ui-client-status-proposed-help": "Help message explaining the details of the proposed state",
 	"wikimediaapiportaloauth-ui-client-status-rejected": "Status text when client is in the rejected state",
 	"wikimediaapiportaloauth-ui-client-status-expired": "Status text when client is in the expired state",
-	"wikimediaapiportaloauth-ui-client-status-disabled": "Status text when client is in the disabled state",
+	"wikimediaapiportaloauth-ui-client-status-disabled": "Status text when client is in the disabled state\n{{identical|Disabled}}",
 	"wikimediaapiportaloauth-ui-client-status-approved": "Status text when client is in the approved state",
 	"wikimediaapiportaloauth-ui-action-new-client": "Label for the action button to create a new client",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Wrapper message for the client status.\n$1 - actual status message",

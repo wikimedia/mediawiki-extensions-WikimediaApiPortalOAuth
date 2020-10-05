@@ -39,5 +39,6 @@
 	"wikimediaapiportaloauth-ui-client-status-disabled": "Kikapcsolva",
 	"wikimediaapiportaloauth-ui-client-status-approved": "Jóváhagyott",
 	"wikimediaapiportaloauth-ui-action-new-client": "Új kliens",
-	"wikimediaapiportaloauth-ui-client-status-wrapper": "Állapot: $1"
+	"wikimediaapiportaloauth-ui-client-status-wrapper": "Állapot: $1",
+	"wikimediaapiportaloauth-email-not-confirmed": "Nem megerősített e-mail cím"
 }

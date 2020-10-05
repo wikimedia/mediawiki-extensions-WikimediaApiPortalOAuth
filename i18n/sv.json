@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sabelöga",
+			"WikiPhoenix"
+		]
+	},
+	"appmanagement": "Applikationshantering",
+	"action-wikimediaapiportaloauth-manage-oauth": "hantera OAuth-klienter",
+	"right-wikimediaapiportaloauth-manage-oauth": "Hantera OAuth-klienter",
+	"wikimediaapiportaloauth-api-error-invalid-action": "Handlingen '$1' är ogiltig",
+	"wikimediaapiportaloauth-ui-client-action-view-details": "Visa detaljer",
+	"wikimediaapiportaloauth-ui-client-action-disable": "Inaktivera",
+	"wikimediaapiportaloauth-ui-client-details-title": "Applikationsdetaljer",
+	"wikimediaapiportaloauth-ui-client-field-desc": "Applikationsbeskrivning",
+	"wikimediaapiportaloauth-ui-client-field-client-key": "Klient-ID",
+	"wikimediaapiportaloauth-ui-client-field-account-type": "Kontotyp",
+	"wikimediaapiportaloauth-ui-client-field-account-type-developer": "Utvecklarkonto",
+	"wikimediaapiportaloauth-ui-client-field-account-type-bot": "Botkonto",
+	"wikimediaapiportaloauth-ui-client-field-permissions": "Behörigheter",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Skrivskyddad",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Läs/skriva",
+	"wikimediaapiportaloauth-ui-new-client-title": "Skapa app",
+	"wikimediaapiportaloauth-ui-action-cancel": "Avbryt",
+	"wikimediaapiportaloauth-ui-action-create": "Skapa",
+	"wikimediaapiportaloauth-ui-registration-label": "Skapades $1",
+	"wikimediaapiportaloauth-ui-field-secret": "Klienthemlighet",
+	"wikimediaapiportaloauth-ui-action-done": "Klar",
+	"wikimediaapiportaloauth-ui-field-access-token": "Åtkomstnyckel",
+	"wikimediaapiportaloauth-ui-client-status-expired": "Utgången",
+	"wikimediaapiportaloauth-ui-client-status-disabled": "Avaktiverad",
+	"wikimediaapiportaloauth-ui-client-status-approved": "Godkänd",
+	"wikimediaapiportaloauth-ui-action-new-client": "Ny klient",
+	"wikimediaapiportaloauth-ui-client-status-wrapper": "Status: $1",
+	"wikimediaapiportaloauth-email-not-confirmed": "E-postadress är inte bekräftad"
+}

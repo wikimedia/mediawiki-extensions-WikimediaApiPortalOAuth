@@ -47,5 +47,6 @@
 	"wikimediaapiportaloauth-ui-client-status-disabled": "כבוי",
 	"wikimediaapiportaloauth-ui-client-status-approved": "מאושר",
 	"wikimediaapiportaloauth-ui-action-new-client": "לקוח חדש",
-	"wikimediaapiportaloauth-ui-client-status-wrapper": "מצב: $1"
+	"wikimediaapiportaloauth-ui-client-status-wrapper": "מצב: $1",
+	"wikimediaapiportaloauth-email-not-confirmed": "כתובת דוא\"ל לא אושרה"
 }

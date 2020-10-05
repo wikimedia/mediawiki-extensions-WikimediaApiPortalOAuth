@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"wikimediaapiportaloauth-ui-client-action-view-details": "Detailer weisen",
+	"wikimediaapiportaloauth-ui-client-action-disable": "Ausschalten",
+	"wikimediaapiportaloauth-ui-client-field-desc": "Beschreiwung derbäisetzen",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Nëmme liesen",
+	"wikimediaapiportaloauth-ui-error-consumer-exists": "Client mat dësem Numm ass scho registréiert",
+	"wikimediaapiportaloauth-ui-action-done": "Fäerdeg",
+	"wikimediaapiportaloauth-ui-client-status-disabled": "Desaktivéiert",
+	"wikimediaapiportaloauth-ui-action-new-client": "Neie Client",
+	"wikimediaapiportaloauth-ui-client-status-wrapper": "Status: $1"
+}
