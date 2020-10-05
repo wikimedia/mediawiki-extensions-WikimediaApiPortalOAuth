@@ -229,7 +229,12 @@
 	};
 
 	NewClient.prototype.onTypeChange = function ( value ) {
-		this.inputs.callbackURI.setRequired( value !== 'bot' );
+		if ( value === 'bot' ) {
+			this.inputs.callbackURI.setRequired( false );
+			this.layouts.callbackURI.setErrors( [] );
+		} else {
+			this.inputs.callbackURI.setRequired( true );
+		}
 	};
 
 	mw.apiportal.booklet.page.NewClient = NewClient;
