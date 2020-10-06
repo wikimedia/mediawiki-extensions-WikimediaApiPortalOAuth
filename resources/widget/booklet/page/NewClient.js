@@ -30,7 +30,7 @@
 		} );
 		this.inputs.description = new OO.ui.MultilineTextInputWidget( {
 			required: true,
-			rows: 3
+			rows: 2
 		} );
 
 		this.inputs.type = new OO.ui.RadioSelectInputWidget( {
@@ -71,7 +71,7 @@
 			options: [
 				{
 					data: 'confidential',
-					label: mw.message( 'wikimediaapiportaloauth-ui-client-field-confidential' ).text()
+					label: new OO.ui.HtmlSnippet( mw.message( 'wikimediaapiportaloauth-ui-client-field-confidential' ).parse() )
 				},
 				{
 					data: 'termsOfService',
@@ -102,7 +102,8 @@
 				label: mw.message( 'wikimediaapiportaloauth-ui-client-field-permissions' ).text()
 			} ),
 			checks: new OO.ui.FieldLayout( this.inputs.checks, {
-				align: 'top'
+				align: 'top',
+				label: mw.message( 'wikimediaapiportaloauth-ui-client-field-checks' ).text()
 			} )
 		};
 
