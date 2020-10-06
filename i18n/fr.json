@@ -47,5 +47,6 @@
 	"wikimediaapiportaloauth-ui-client-status-disabled": "Désactivé",
 	"wikimediaapiportaloauth-ui-client-status-approved": "Approuvé",
 	"wikimediaapiportaloauth-ui-action-new-client": "Nouveau client",
-	"wikimediaapiportaloauth-ui-client-status-wrapper": "État : $1"
+	"wikimediaapiportaloauth-ui-client-status-wrapper": "État : $1",
+	"wikimediaapiportaloauth-email-not-confirmed": "Courriel non confirmé"
 }

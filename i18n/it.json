@@ -9,5 +9,6 @@
 	"wikimediaapiportaloauth-ui-client-field-name": "Nome applicazione",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Sola lettura",
 	"wikimediaapiportaloauth-ui-error-must-be-set": "Il campo deve essere impostato",
-	"wikimediaapiportaloauth-ui-action-done": "Fatto"
+	"wikimediaapiportaloauth-ui-action-done": "Fatto",
+	"wikimediaapiportaloauth-email-not-confirmed": "Indirizzo di posta elettronica non confermato"
 }
