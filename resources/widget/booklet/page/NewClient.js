@@ -236,6 +236,7 @@
 		} else {
 			this.inputs.callbackURI.setRequired( true );
 		}
+		this.layouts.callbackURI.toggle();
 	};
 
 	mw.apiportal.booklet.page.NewClient = NewClient;
