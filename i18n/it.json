@@ -4,11 +4,16 @@
 			"Beta16"
 		]
 	},
-	"appmanagement": "Gestione applicazione",
-	"wikimediaapiportaloauth-ui-client-details-title": "Dettagli applicazione",
-	"wikimediaapiportaloauth-ui-client-field-name": "Nome applicazione",
+	"appmanagement": "I miei clienti",
+	"wikimediaapiportaloauth-ui-client-details-title": "Dettagli cliente",
+	"wikimediaapiportaloauth-ui-client-field-name": "Nome cliente:",
+	"wikimediaapiportaloauth-ui-client-field-account-type": "Tipo cliente:",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Sola lettura",
+	"wikimediaapiportaloauth-ui-new-client-title": "Crea cliente",
 	"wikimediaapiportaloauth-ui-error-must-be-set": "Il campo deve essere impostato",
+	"wikimediaapiportaloauth-ui-error-request-client-fail": "Richiesta fallita. Riprova più tardi.",
 	"wikimediaapiportaloauth-ui-action-done": "Fatto",
-	"wikimediaapiportaloauth-email-not-confirmed": "Indirizzo di posta elettronica non confermato"
+	"wikimediaapiportaloauth-ui-client-created": "Cliente creato",
+	"wikimediaapiportaloauth-ui-action-new-client": "Crea cliente",
+	"wikimediaapiportaloauth-email-not-confirmed": "Grazie per esserti unito a Wikimedia! Prima di poter creare il tuo primo cliente API client, devi [[Special:ConfirmEmail|confermare il tuo indirizzo di posta elettronica]]."
 }

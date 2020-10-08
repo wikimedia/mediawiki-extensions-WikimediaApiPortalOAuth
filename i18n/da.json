@@ -4,7 +4,9 @@
 			"Saederup92"
 		]
 	},
-	"wikimediaapiportaloauth-ui-client-field-permissions": "Tilladelser",
+	"appmanagement": "Mine klienter",
+	"wikimediaapiportaloauth-ui-client-field-permissions": "Tilladelser:",
 	"wikimediaapiportaloauth-ui-client-status-expired": "Udløbet",
-	"wikimediaapiportaloauth-ui-client-status-disabled": "Deaktiveret"
+	"wikimediaapiportaloauth-ui-client-status-disabled": "Deaktiveret",
+	"wikimediaapiportaloauth-ui-action-new-client": "Opret klient"
 }
