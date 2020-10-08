@@ -37,7 +37,7 @@
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "Invalid redirect URI",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "Cannot retrieve access token",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Request failed. Please try again later.",
-	"wikimediaapiportaloauth-ui-field-secret": "Client secret",
+	"wikimediaapiportaloauth-ui-field-secret": "Client secret:",
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "Secret reset",
 	"wikimediaapiportaloauth-ui-action-done": "Done",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "Save these credentials securely. You won't be able to access them again through the API Portal.",
