@@ -1,17 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"Mpayansilva"
 		]
 	},
 	"appmanagement": "I miei clienti",
 	"wikimediaapiportaloauth-ui-client-details-title": "Dettagli cliente",
 	"wikimediaapiportaloauth-ui-client-field-name": "Nome cliente:",
+	"wikimediaapiportaloauth-ui-client-field-desc": "Descrizione cliente:",
+	"wikimediaapiportaloauth-ui-client-field-client-key": "ID cliente:",
 	"wikimediaapiportaloauth-ui-client-field-account-type": "Tipo cliente:",
+	"wikimediaapiportaloauth-ui-client-field-permissions": "Permessi:",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Sola lettura",
+	"wikimediaapiportaloauth-ui-client-field-checks": "Accordi:",
 	"wikimediaapiportaloauth-ui-new-client-title": "Crea cliente",
 	"wikimediaapiportaloauth-ui-error-must-be-set": "Il campo deve essere impostato",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Richiesta fallita. Riprova più tardi.",
+	"wikimediaapiportaloauth-ui-field-secret": "Il segreto del cliente",
 	"wikimediaapiportaloauth-ui-action-done": "Fatto",
 	"wikimediaapiportaloauth-ui-client-created": "Cliente creato",
 	"wikimediaapiportaloauth-ui-action-new-client": "Crea cliente",

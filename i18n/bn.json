@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Al Riaz Uddin Ripon"
+		]
+	},
+	"wikimediaapiportaloauth-ui-client-action-view-details": "বিস্তারিত দেখুন",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "শুধুমাত্র পড়ুন",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "পড়ুন/লিখুন",
+	"wikimediaapiportaloauth-ui-action-cancel": "বাতিল",
+	"wikimediaapiportaloauth-ui-action-create": "তৈরি",
+	"wikimediaapiportaloauth-ui-registration-label": "$1 তৈরি করা হয়েছে",
+	"wikimediaapiportaloauth-ui-error-must-be-set": "এই ক্ষেত্রটি অবশ্যই সেট করতে হবে",
+	"wikimediaapiportaloauth-ui-action-done": "সম্পন্ন",
+	"wikimediaapiportaloauth-ui-client-status-rejected": "প্রত্যাখান হয়েছে",
+	"wikimediaapiportaloauth-ui-client-status-expired": "মেয়াদোত্তীর্ণ",
+	"wikimediaapiportaloauth-ui-client-status-approved": "অনুমোদিত"
+}

@@ -35,7 +35,7 @@
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "Geçersiz yönlendirme URI'si",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "Erişim anahtarı alınamıyor",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "İstek başarısız oldu. Lütfen daha sonra tekrar deneyiniz.",
-	"wikimediaapiportaloauth-ui-field-secret": "İstemci gizliliği",
+	"wikimediaapiportaloauth-ui-field-secret": "İstemci gizliliği:",
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "Gizli sıfırlama",
 	"wikimediaapiportaloauth-ui-action-done": "Yapıldı",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "Bu kimlik bilgilerini güvenli bir şekilde saklayın. API Portali üzerinden bunlara tekrar erişemeyeceksiniz.",

@@ -35,7 +35,7 @@
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "כתובת URI בלתי־תקינה להפניה",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "לא ניתן לאחזר אסימון גישה",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "הבקשה נכשלה. נא לנסות שוב מאוחר יותר.",
-	"wikimediaapiportaloauth-ui-field-secret": "סוד הלקוח",
+	"wikimediaapiportaloauth-ui-field-secret": "סוד הלקוח:",
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "אתחול הסוד",
 	"wikimediaapiportaloauth-ui-action-done": "בוצע",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "{{GENDER:|שמור|שמרי}} על נתוני ההאמנה האלה באופן מאובטח! לא {{GENDER:|תוכל|תוכלי}} לגשת אליהם שום דרך הפורטל של API.",

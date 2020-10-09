@@ -33,7 +33,7 @@
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "Ungültige Weiterleitungs-URI",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "Zugriffstoken kann nicht abgerufen werden",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Anfrage fehlgeschlagen. Bitte versuche es später noch einmal.",
-	"wikimediaapiportaloauth-ui-field-secret": "Client-Geheimnis",
+	"wikimediaapiportaloauth-ui-field-secret": "Client-Geheimnis:",
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "Geheimnis zurücksetzen",
 	"wikimediaapiportaloauth-ui-action-done": "Fertig",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "Speicher diese Anmeldedaten sicher. Du kannst später über das API-Portal nicht mehr darauf zugreifen.",
