@@ -34,7 +34,7 @@
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "Érvénytelen redirect URI",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "Nem található a hozzáférési token",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Nem sikerült végrehajtani a parancsot. Kérjük, próbáld újra később.",
-	"wikimediaapiportaloauth-ui-field-secret": "Kliens titok",
+	"wikimediaapiportaloauth-ui-field-secret": "Kliens titok:",
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "Titok visszaállítása",
 	"wikimediaapiportaloauth-ui-action-done": "Kész",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "Gondosan mentsd el a hitelesítő adatokat. Az API Portálon többé nem éred el őket.",

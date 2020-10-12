@@ -35,7 +35,7 @@
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "Nieprawidłowy adres URL wywołania zwrotnego",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "Nie można pozyskać tokena dostępu",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Żądanie klienta zakończyło się niepowodzeniem!",
-	"wikimediaapiportaloauth-ui-field-secret": "Sekret klienta",
+	"wikimediaapiportaloauth-ui-field-secret": "Sekret klienta:",
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "Resetowanie sekretu",
 	"wikimediaapiportaloauth-ui-action-done": "Gotowe",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "Zapisz te dane w bezpieczny sposób! Nie będziesz w stanie ponownie zobaczyć sekretów swojego klienta.",

@@ -35,7 +35,7 @@
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "URL de redirection non valide",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "Impossible de récupérer le jeton d’accès",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Échec de la demande. Veuillez réessayer ultérieurement.",
-	"wikimediaapiportaloauth-ui-field-secret": "Secret du client",
+	"wikimediaapiportaloauth-ui-field-secret": "Secret du client :",
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "Réinitialiser le secret",
 	"wikimediaapiportaloauth-ui-action-done": "Terminé",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "Enregistrer ces certificats de façon sécurisée ! Vous ne pourrez plus y accéder via le portail de l’API.",

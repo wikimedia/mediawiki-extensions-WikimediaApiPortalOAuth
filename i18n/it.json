@@ -17,7 +17,7 @@
 	"wikimediaapiportaloauth-ui-new-client-title": "Crea cliente",
 	"wikimediaapiportaloauth-ui-error-must-be-set": "Il campo deve essere impostato",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Richiesta fallita. Riprova più tardi.",
-	"wikimediaapiportaloauth-ui-field-secret": "Il segreto del cliente",
+	"wikimediaapiportaloauth-ui-field-secret": "Cliente segreto:",
 	"wikimediaapiportaloauth-ui-action-done": "Fatto",
 	"wikimediaapiportaloauth-ui-client-created": "Cliente creato",
 	"wikimediaapiportaloauth-ui-action-new-client": "Crea cliente",
