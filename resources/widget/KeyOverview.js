@@ -58,10 +58,10 @@
 		} ).then(
 			function ( response ) {
 				this.showLoading( false );
-				if ( response.hasOwnProperty( 'clients' ) ) {
+				if ( Object.prototype.hasOwnProperty.call( response, 'clients' ) ) {
 					this.buildList( response.clients );
 				}
-				if ( initial && response.hasOwnProperty( 'total' ) ) {
+				if ( initial && Object.prototype.hasOwnProperty.call( response, 'total' ) ) {
 					if ( response.total > this.pageLimit ) {
 						this.buildPagination( response.total );
 					}
@@ -96,21 +96,26 @@
 	KeyOverview.prototype.buildPagination = function ( total ) {
 		var pages = Math.ceil( total / this.pageLimit ),
 			$pagination = $( '<nav>' ),
-			$paginationInner = $( '<ul>' ).addClass( 'pagination justify-content-center' );
+			$paginationInner = $( '<ul>' ).addClass( 'pagination justify-content-center' ),
+			i,
+			$anchor;
 
-		for ( var i = 0; i < pages; i++ ) {
-			var $anchor = $( '<a>' )
+		for ( i = 0; i < pages; i++ ) {
+			$anchor = $( '<a>' )
 				.addClass( 'page-link' )
 				.attr( 'href', '#' )
 				.attr( 'data-offset', i * this.pageLimit )
 				.html( i + 1 );
 			$anchor.on( 'click', function ( e ) {
+				var $target,
+					data;
+
 				e.preventDefault();
 				e.stopPropagation();
-				var $target = $( e.target ),
-					data = $target.data();
+				$target = $( e.target );
+				data = $target.data();
 
-				if ( !data.hasOwnProperty( 'offset' ) ) {
+				if ( !Object.prototype.hasOwnProperty.call( data, 'offset' ) ) {
 					return;
 				}
 				this.loadClients( { offset: data.offset } );
@@ -118,6 +123,9 @@
 				$target.parent( 'li' ).addClass( 'active' );
 			}.bind( this ) );
 			$paginationInner.append(
+				// The following classes are used here:
+				// * page-item
+				// * page-item active
 				$( '<li>' )
 					.addClass( 'page-item ' + ( i === 0 ? 'active' : '' ) )
 					.append( $anchor )
@@ -129,16 +137,18 @@
 	};
 
 	KeyOverview.prototype.makeNewClient = function () {
-		var windowManager = OO.ui.getWindowManager();
+		var windowManager = OO.ui.getWindowManager(),
+			instance;
+
 		this.dialog = new mw.apiportal.dialog.Client( {
 			size: 'large',
 			booklet: new mw.apiportal.booklet.NewClient()
 		} );
 		windowManager.addWindows( [ this.dialog ] );
-		var instance = windowManager.openWindow( this.dialog );
+		instance = windowManager.openWindow( this.dialog );
 		instance.closed.then(
 			function ( result ) {
-				if ( result && result.hasOwnProperty( 'update' ) && result.update ) {
+				if ( result && Object.prototype.hasOwnProperty.call( result, 'update' ) && result.update ) {
 					this.loadClients();
 				}
 			}.bind( this )

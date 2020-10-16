@@ -8,13 +8,5 @@
 	"globals": {
 		"mw": "readonly",
 		"OO": "readonly"
-	},
-	"rules": {
-		"no-prototype-builtins": "off",
-		"no-jquery/no-global-selector": "off",
-		"vars-on-top": "off",
-		"one-var": "off",
-		"mediawiki/class-doc": "off",
-		"mediawiki/msg-doc": "off"
 	}
 }

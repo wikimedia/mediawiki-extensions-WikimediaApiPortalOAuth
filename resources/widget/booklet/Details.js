@@ -9,9 +9,9 @@
 	 * @param {Object} cfg.client - Client.
 	 */
 	var Details = function ( cfg ) {
-		Details.super.call( this, cfg );
-
 		var firstPageName = 'details';
+
+		Details.super.call( this, cfg );
 
 		this.addPages( [
 			new mw.apiportal.booklet.page.Details( firstPageName, { client: this.client } ),

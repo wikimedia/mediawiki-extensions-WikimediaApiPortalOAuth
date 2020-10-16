@@ -89,19 +89,26 @@
 
 	Client.prototype.makeStatusMessage = function () {
 		var clientStatus = parseInt( this.client.get( 'stage' ) ),
-			status, label,
+			status,
+			label,
 			layout = new OO.ui.HorizontalLayout( { classes: [ 'client-status' ] } );
-		if ( !Client.static.statuses.hasOwnProperty( clientStatus ) ) {
+		if ( !Object.prototype.hasOwnProperty.call( Client.static.statuses, clientStatus ) ) {
 			return null;
 		}
 		status = Client.static.statuses[ clientStatus ];
+		// Messages that can be used here:
+		// * wikimediaapiportaloauth-ui-client-status-proposed
+		// * wikimediaapiportaloauth-ui-client-status-approved
+		// * wikimediaapiportaloauth-ui-client-status-rejected
+		// * wikimediaapiportaloauth-ui-client-status-expired
+		// * wikimediaapiportaloauth-ui-client-status-disabled
 		label = mw.message( status.label ).text();
 		label = mw.message(
 			'wikimediaapiportaloauth-ui-client-status-wrapper',
 			label
 		).text();
 
-		if ( status.hasOwnProperty( 'icon' ) ) {
+		if ( Object.prototype.hasOwnProperty.call( status, 'icon' ) ) {
 			layout.addItems( [
 				new OO.ui.IconWidget( { icon: status.icon } )
 			] );
@@ -112,12 +119,15 @@
 			} )
 		] );
 
-		if ( status.hasOwnProperty( 'help' ) ) {
+		if ( Object.prototype.hasOwnProperty.call( status, 'help' ) ) {
 			layout.addItems( [ new OO.ui.PopupButtonWidget( {
 				icon: 'info',
 				framed: false,
 				invisibleLabel: true,
 				popup: {
+					// Message that can be used here:
+					// * wikimediaapiportaloauth-ui-client-status-proposed-help
+					// eslint-disable-next-line mediawiki/msg-doc
 					$content: $( '<span>' ).text( mw.message( status.help ).text() ),
 					padded: true,
 					align: 'forwards'

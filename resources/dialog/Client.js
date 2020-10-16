@@ -60,11 +60,13 @@
 	};
 
 	Client.prototype.setErrors = function ( errors ) {
+		var i;
+
 		this.clearErrors();
 		if ( !Array.isArray( errors ) ) {
 			errors = [ errors ];
 		}
-		for ( var i = 0; i < errors.length; i++ ) {
+		for ( i = 0; i < errors.length; i++ ) {
 			this.errors.push( new OO.ui.MessageWidget( {
 				type: 'error',
 				label: errors[ i ]
@@ -79,19 +81,21 @@
 	};
 
 	Client.prototype.renderErrors = function () {
-		for ( var i = 0; i < this.errors.length; i++ ) {
+		var i;
+
+		for ( i = 0; i < this.errors.length; i++ ) {
 			this.$errorArea.append( this.errors[ i ].$element );
 		}
 		this.updateSize();
 	};
 
 	Client.prototype.onPageSet = function ( page ) {
+		var abilities = page.getAbilities();
 		this.clearErrors();
 
 		if ( !( page instanceof mw.apiportal.booklet.page.Base ) ) {
 			return;
 		}
-		var abilities = page.getAbilities();
 		if ( abilities !== null ) {
 			this.actions.setAbilities( abilities );
 		}

@@ -24,6 +24,10 @@
 	};
 
 	NewClient.prototype.addLayouts = function () {
+		var name,
+			layouts = [],
+			layoutId;
+
 		this.inputs = {};
 		this.inputs.name = new OO.ui.TextInputWidget( {
 			required: true
@@ -108,8 +112,8 @@
 		};
 
 		// Reset errors after value change
-		for ( var name in this.inputs ) {
-			if ( !this.inputs.hasOwnProperty( name ) ) {
+		for ( name in this.inputs ) {
+			if ( !Object.prototype.hasOwnProperty.call( this.inputs, name ) ) {
 				continue;
 			}
 			this.inputs[ name ].connect( this.layouts[ name ], {
@@ -120,9 +124,8 @@
 		}
 
 		// Cannot use Object.values()
-		var layouts = [];
-		for ( var layoutId in this.layouts ) {
-			if ( !this.layouts.hasOwnProperty( layoutId ) ) {
+		for ( layoutId in this.layouts ) {
+			if ( !Object.prototype.hasOwnProperty.call( this.layouts, layoutId ) ) {
 				continue;
 			}
 			layouts.push( this.layouts[ layoutId ] );
@@ -143,12 +146,15 @@
 	};
 
 	NewClient.prototype.doCheckValidity = function ( inputs, dfd ) {
+		var currentKey,
+			current;
+
 		if ( inputs.length === 0 ) {
 			dfd.resolve();
 			return;
 		}
-		var currentKey = inputs.shift(),
-			current = this.inputs[ currentKey ];
+		currentKey = inputs.shift();
+		current = this.inputs[ currentKey ];
 
 		if ( currentKey === 'checks' ) {
 			if ( current.getValue().indexOf( 'termsOfService' ) === -1 ) {
@@ -222,7 +228,7 @@
 
 	NewClient.prototype.getMappedScopes = function () {
 		var selection = this.inputs.permissions.getValue();
-		if ( NewClient.static.grantMapping.hasOwnProperty( selection ) ) {
+		if ( Object.prototype.hasOwnProperty.call( NewClient.static.grantMapping, selection ) ) {
 			return NewClient.static.grantMapping[ selection ];
 		}
 

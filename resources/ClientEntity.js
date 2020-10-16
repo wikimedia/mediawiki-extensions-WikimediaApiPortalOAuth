@@ -39,7 +39,7 @@
 
 		if (
 			ClientEntity.static.fields.indexOf( prop ) !== -1 &&
-			this.data.hasOwnProperty( prop )
+			Object.prototype.hasOwnProperty.call( this.data, prop )
 		) {
 			return this.data[ prop ];
 		}
@@ -48,7 +48,12 @@
 	};
 
 	ClientEntity.prototype.getLabel = function ( prop ) {
-		if ( ClientEntity.static.labels.hasOwnProperty( prop ) ) {
+		if ( Object.prototype.hasOwnProperty.call( ClientEntity.static.labels, prop ) ) {
+			// Messages that can be used here:
+			// * wikimediaapiportaloauth-ui-client-field-client-key
+			// * wikimediaapiportaloauth-ui-client-field-name
+			// * wikimediaapiportaloauth-ui-client-field-callback-uri
+			// * wikimediaapiportaloauth-ui-client-field-desc
 			return mw.message( ClientEntity.static.labels[ prop ] ).text();
 		}
 
