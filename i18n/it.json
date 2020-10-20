@@ -2,10 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
+			"Luca.favorido",
 			"Mpayansilva"
 		]
 	},
 	"appmanagement": "I miei clienti",
+	"wikimediaapiportaloauth-ui-client-action-view-details": "Vedi dettagli",
+	"wikimediaapiportaloauth-ui-client-action-disable": "Disabilita",
 	"wikimediaapiportaloauth-ui-client-details-title": "Dettagli cliente",
 	"wikimediaapiportaloauth-ui-client-field-name": "Nome cliente:",
 	"wikimediaapiportaloauth-ui-client-field-desc": "Descrizione cliente:",
@@ -15,11 +18,19 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Sola lettura",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Accordi:",
 	"wikimediaapiportaloauth-ui-new-client-title": "Crea cliente",
+	"wikimediaapiportaloauth-ui-action-cancel": "Annulla",
+	"wikimediaapiportaloauth-ui-action-create": "Crea",
 	"wikimediaapiportaloauth-ui-error-must-be-set": "Il campo deve essere impostato",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Richiesta fallita. Riprova più tardi.",
 	"wikimediaapiportaloauth-ui-field-secret": "Cliente segreto:",
 	"wikimediaapiportaloauth-ui-action-done": "Fatto",
+	"wikimediaapiportaloauth-ui-field-access-token": "Token di accesso",
 	"wikimediaapiportaloauth-ui-client-created": "Cliente creato",
+	"wikimediaapiportaloauth-ui-client-status-proposed": "In attesa di approvazione",
+	"wikimediaapiportaloauth-ui-client-status-expired": "Scaduto",
+	"wikimediaapiportaloauth-ui-client-status-disabled": "Disabilitato",
+	"wikimediaapiportaloauth-ui-client-status-approved": "Approvato",
 	"wikimediaapiportaloauth-ui-action-new-client": "Crea cliente",
+	"wikimediaapiportaloauth-ui-client-status-wrapper": "Stato: $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "Grazie per esserti unito a Wikimedia! Prima di poter creare il tuo primo cliente API client, devi [[Special:ConfirmEmail|confermare il tuo indirizzo di posta elettronica]]."
 }
