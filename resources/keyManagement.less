@@ -36,18 +36,34 @@
 			display: block;
 		}
 
-		.registration-time-label {
-			margin-top: 2px;
-		}
+		.oo-ui-horizontalLayout {
+			display: flex;
+			align-items: center;
 
-		.client-status {
-			height: 25px;
-			margin-left: 10px;
-			padding-left: 10px;
-			border-left: 2px solid #c8ccd1;
+			.registration-time-label {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
 
-			.oo-ui-iconWidget {
-				background-size: 20px;
+			.client-status {
+				display: flex;
+				align-items: center;
+				height: 25px;
+				margin-left: 10px;
+				padding-left: 10px;
+				border-left: 2px solid #c8ccd1;
+
+				.oo-ui-iconWidget {
+					background-size: 20px;
+				}
+
+				.oo-ui-iconElement {
+					margin-bottom: 0;
+				}
+
+				.oo-ui-labelElement {
+					margin-bottom: 0;
+				}
 			}
 		}
 	}
