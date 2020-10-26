@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Umherirrender"
+		]
 	},
 	"wikimediaapiportaloauth-desc": "Ermöglicht es Benutzern des Wikimedia API-Portals, OAuth-Clients per Fernzugriff zu erstellen und zu verwalten",
 	"appmanagement": "Meine Clients",
@@ -22,7 +24,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Lesen/Schreiben",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Vereinbarungen:",
 	"wikimediaapiportaloauth-ui-client-field-confidential": "Ich werde meine Zugangsdaten sicher aufbewahren. Erfahre mehr über [[security best practices]].",
-	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Ich stimme den [[foundation:Special:MyLanguage/Terms_of_Use|terms of use|Nutzungsbedingungen]] der  Wikimedia API zu",
+	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Ich stimme den [[foundation:Special:MyLanguage/Terms_of_Use|Nutzungsbedingungen]] der Wikimedia API zu.",
 	"wikimediaapiportaloauth-ui-new-client-title": "Client erstellen",
 	"wikimediaapiportaloauth-ui-action-reset-secret": "Client-Geheimnis zurücksetzen",
 	"wikimediaapiportaloauth-ui-action-cancel": "Abbrechen",
@@ -47,5 +49,5 @@
 	"wikimediaapiportaloauth-ui-client-status-approved": "Genehmigt",
 	"wikimediaapiportaloauth-ui-action-new-client": "Client erstellen",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Status: $1",
-	"wikimediaapiportaloauth-email-not-confirmed": "Danke, dass du Wikimedia beitrittst! Bevor du deinen ersten API-Client erstellen kannst, [[Special:ConfirmEmail|bestätige bitte  deine E-Mail-Adresse]]."
+	"wikimediaapiportaloauth-email-not-confirmed": "Danke, dass du Wikimedia beitrittst! Bevor du deinen ersten API-Client erstellen kannst, [[Special:ConfirmEmail|bestätige bitte deine E-Mail-Adresse]]."
 }

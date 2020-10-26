@@ -5,7 +5,10 @@
 		]
 	},
 	"appmanagement": "Mine klienter",
+	"wikimediaapiportaloauth-ui-client-field-name": "Klientnavn:",
+	"wikimediaapiportaloauth-ui-client-field-account-type": "Klienttype:",
 	"wikimediaapiportaloauth-ui-client-field-permissions": "Tilladelser:",
+	"wikimediaapiportaloauth-ui-new-client-title": "Opret klient",
 	"wikimediaapiportaloauth-ui-client-status-expired": "Udløbet",
 	"wikimediaapiportaloauth-ui-client-status-disabled": "Deaktiveret",
 	"wikimediaapiportaloauth-ui-action-new-client": "Opret klient"

@@ -4,5 +4,13 @@
 			"Kly"
 		]
 	},
-	"wikimediaapiportaloauth-desc": "讓維基媒體 API 入口使用者能遠端建立與管理 OAuth 客戶端"
+	"wikimediaapiportaloauth-desc": "讓維基媒體 API 入口使用者能遠端建立與管理 OAuth 客戶端",
+	"wikimediaapiportaloauth-ui-client-action-disable": "停用",
+	"wikimediaapiportaloauth-ui-client-field-permissions": "權限：",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "唯讀",
+	"wikimediaapiportaloauth-ui-action-cancel": "取消",
+	"wikimediaapiportaloauth-ui-action-create": "建立",
+	"wikimediaapiportaloauth-ui-registration-label": "建立於：$1",
+	"wikimediaapiportaloauth-ui-action-done": "完成",
+	"wikimediaapiportaloauth-ui-client-status-wrapper": "狀態：$1"
 }

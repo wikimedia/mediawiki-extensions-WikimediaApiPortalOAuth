@@ -3,10 +3,11 @@
 		"authors": [
 			"Dejan Savuljesku",
 			"Robby",
-			"Robert Vogel"
+			"Robert Vogel",
+			"Umherirrender"
 		]
 	},
-	"wikimediaapiportaloauth-desc": "Description of WikimediaApiPortalOAuth for [[Special:Version]]",
+	"wikimediaapiportaloauth-desc": "{{desc|name=WikimediaApiPortalOAuth|url=https://www.mediawiki.org/wiki/Extension:WikimediaApiPortalOAuth}}",
 	"appmanagement": "{{doc-special|AppManagement}}",
 	"action-wikimediaapiportaloauth-manage-oauth": "{{doc-action|wikimediaapiportaloauth-manage-oauth}}",
 	"right-wikimediaapiportaloauth-manage-oauth": "{{doc-right|wikimediaapiportaloauth-manage-oauth}}",
