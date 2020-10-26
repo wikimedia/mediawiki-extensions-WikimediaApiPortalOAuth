@@ -18,8 +18,8 @@
 		if ( Object.prototype.hasOwnProperty.call( data, 'secret' ) ) {
 			this.secretLabel.setLabel( data.secret );
 		}
-		if ( Object.prototype.hasOwnProperty.call( data, 'accessToken' ) ) {
-			this.accessTokenLabel.setLabel( data.accessToken );
+		if ( Object.prototype.hasOwnProperty.call( data, 'access_token' ) ) {
+			this.accessTokenLabel.setLabel( data.access_token );
 		} else {
 			this.accessTokenLayout.$element.hide();
 		}

@@ -41,7 +41,7 @@
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "Secret reset",
 	"wikimediaapiportaloauth-ui-action-done": "Done",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "Save these credentials securely. You won't be able to access them again through the API Portal.",
-	"wikimediaapiportaloauth-ui-field-access-token": "Access token",
+	"wikimediaapiportaloauth-ui-field-access-token": "Access token:",
 	"wikimediaapiportaloauth-ui-client-created": "Client created",
 	"wikimediaapiportaloauth-ui-client-status-proposed": "Approval pending",
 	"wikimediaapiportaloauth-ui-client-status-proposed-help": "Before your client can be authorized by other users, it must be reviewed and approved by Wikimedia OAuth admins.",
