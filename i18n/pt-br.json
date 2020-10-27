@@ -39,7 +39,7 @@
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "Redefinir segredo",
 	"wikimediaapiportaloauth-ui-action-done": "Feito",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "Salve essas credenciais com segurança. Você não poderá acessá-los novamente por meio do Portal API.",
-	"wikimediaapiportaloauth-ui-field-access-token": "Token de acesso",
+	"wikimediaapiportaloauth-ui-field-access-token": "Chave de acesso:",
 	"wikimediaapiportaloauth-ui-client-created": "Cliente criado",
 	"wikimediaapiportaloauth-ui-client-status-proposed": "Aprovação pendente",
 	"wikimediaapiportaloauth-ui-client-status-proposed-help": "Antes que seu cliente possa ser autorizado por outros usuários, ele deve ser revisado e aprovado pelos administradores OAuth da Wikimedia",

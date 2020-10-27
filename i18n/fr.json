@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "Permet aux utilisateurs du portail de l’API de Wikimédia de créer et gérer des clients OAuth à distance",
@@ -39,7 +40,7 @@
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "Réinitialiser le secret",
 	"wikimediaapiportaloauth-ui-action-done": "Terminé",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "Enregistrer ces certificats de façon sécurisée ! Vous ne pourrez plus y accéder via le portail de l’API.",
-	"wikimediaapiportaloauth-ui-field-access-token": "Jeton d’accès",
+	"wikimediaapiportaloauth-ui-field-access-token": "Jeton d’accès :",
 	"wikimediaapiportaloauth-ui-client-created": "Client créé",
 	"wikimediaapiportaloauth-ui-client-status-proposed": "Approbation en attente",
 	"wikimediaapiportaloauth-ui-client-status-proposed-help": "Avant que votre client soit autorisé par d’autres utilisateurs, il doit être revu et approuvé par les administrateurs OAuth de Wikimédia.",

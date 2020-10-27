@@ -39,7 +39,7 @@
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "Geheimnis zurücksetzen",
 	"wikimediaapiportaloauth-ui-action-done": "Fertig",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "Speicher diese Anmeldedaten sicher. Du kannst später über das API-Portal nicht mehr darauf zugreifen.",
-	"wikimediaapiportaloauth-ui-field-access-token": "Zugriffstoken",
+	"wikimediaapiportaloauth-ui-field-access-token": "Zugriffstoken:",
 	"wikimediaapiportaloauth-ui-client-created": "Client erstellt",
 	"wikimediaapiportaloauth-ui-client-status-proposed": "Genehmigung ausstehend",
 	"wikimediaapiportaloauth-ui-client-status-proposed-help": "Bevor dein Client von anderen Benutzern autorisiert werden kann, muss er von Wikimedia OAuth-Administratoren geprüft und genehmigt werden.",
