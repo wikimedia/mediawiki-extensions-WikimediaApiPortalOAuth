@@ -39,7 +39,7 @@
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "Gizli sıfırlama",
 	"wikimediaapiportaloauth-ui-action-done": "Yapıldı",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "Bu kimlik bilgilerini güvenli bir şekilde saklayın. API Portali üzerinden bunlara tekrar erişemeyeceksiniz.",
-	"wikimediaapiportaloauth-ui-field-access-token": "Erişim anahtarı",
+	"wikimediaapiportaloauth-ui-field-access-token": "Erişim anahtarı:",
 	"wikimediaapiportaloauth-ui-client-created": "İstemci oluşturuldu",
 	"wikimediaapiportaloauth-ui-client-status-proposed": "Onay bekleniyor",
 	"wikimediaapiportaloauth-ui-client-status-proposed-help": "İstemciniz diğer kullanıcılar tarafından yetkilendirilmeden önce, Wikimedia OAuth hizmetlileri tarafından incelenmeli ve onaylanmalıdır.",

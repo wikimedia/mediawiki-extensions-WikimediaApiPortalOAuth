@@ -39,7 +39,7 @@
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "Nullstill hemmelighet",
 	"wikimediaapiportaloauth-ui-action-done": "Ferdig",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "Lagre denne legitimasjonen sikkert! Du vil ikke kunne se dem igjen via API-portalen.",
-	"wikimediaapiportaloauth-ui-field-access-token": "Tilgangsnøkkel",
+	"wikimediaapiportaloauth-ui-field-access-token": "Tilgangsnøkkel:",
 	"wikimediaapiportaloauth-ui-client-created": "Klient opprettet",
 	"wikimediaapiportaloauth-ui-client-status-proposed": "Venter på godkjenning",
 	"wikimediaapiportaloauth-ui-client-status-proposed-help": "Før klienten din kan autoriseres av andre brukere må den gås gjennom og godkjennes av Wikimedias OAuth-administratorer.",
