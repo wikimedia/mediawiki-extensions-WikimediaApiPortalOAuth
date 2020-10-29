@@ -24,7 +24,7 @@
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Richiesta fallita. Riprova più tardi.",
 	"wikimediaapiportaloauth-ui-field-secret": "Cliente segreto:",
 	"wikimediaapiportaloauth-ui-action-done": "Fatto",
-	"wikimediaapiportaloauth-ui-field-access-token": "Token di accesso",
+	"wikimediaapiportaloauth-ui-field-access-token": "Token di accesso:",
 	"wikimediaapiportaloauth-ui-client-created": "Cliente creato",
 	"wikimediaapiportaloauth-ui-client-status-proposed": "In attesa di approvazione",
 	"wikimediaapiportaloauth-ui-client-status-expired": "Scaduto",
