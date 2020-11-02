@@ -39,7 +39,7 @@
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "אתחול הסוד",
 	"wikimediaapiportaloauth-ui-action-done": "בוצע",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "{{GENDER:|שמור|שמרי}} על נתוני ההאמנה האלה באופן מאובטח! לא {{GENDER:|תוכל|תוכלי}} לגשת אליהם שום דרך הפורטל של API.",
-	"wikimediaapiportaloauth-ui-field-access-token": "אסימון גישה",
+	"wikimediaapiportaloauth-ui-field-access-token": "אסימון גישה:",
 	"wikimediaapiportaloauth-ui-client-created": "הלקוח נוצר",
 	"wikimediaapiportaloauth-ui-client-status-proposed": "בהמתנה לאישור",
 	"wikimediaapiportaloauth-ui-client-status-proposed-help": "לפני שהלקוח שלך יכול לקבל אישור ממשתמשים אחרים, הוא צריך לעבור סקירה ואישור על־ידי מנהלי OAuth אחרים של ויקימדיה",

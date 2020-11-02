@@ -24,6 +24,7 @@
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "접근 토큰을 검색할 수 없습니다",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "클라이언트 요청을 실패했습니다!",
 	"wikimediaapiportaloauth-ui-action-done": "완료",
+	"wikimediaapiportaloauth-ui-field-access-token": "접근 토큰:",
 	"wikimediaapiportaloauth-ui-client-created": "클라이언트가 만들어졌습니다",
 	"wikimediaapiportaloauth-ui-client-status-rejected": "거부됨",
 	"wikimediaapiportaloauth-ui-action-new-client": "클라이언트 만들기",
