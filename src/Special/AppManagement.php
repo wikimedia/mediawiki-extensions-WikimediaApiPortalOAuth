@@ -32,6 +32,7 @@ class AppManagement extends SpecialPage {
 		parent::execute( $subPage );
 
 		$output = $this->getOutput();
+		$output->disallowUserJs();
 
 		if ( !$this->getUser()->isEmailConfirmed() ) {
 			$output->addHTML(
