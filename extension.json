@@ -106,7 +106,7 @@
 	},
 	"config": {
 		"WikimediaApiPortalOAuthMetaRestURL": {
-			"value": "",
+			"value": "https://meta.wikimedia.org/w/rest.php",
 			"description": "URL to rest.php on Meta"
 		}
 	},
