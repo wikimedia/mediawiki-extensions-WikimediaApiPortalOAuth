@@ -205,7 +205,7 @@
 		// Type "bot" means ownerOnly
 		return this.inputs.type.getValue() === 'bot' ?
 			[ 'client_credentials' ] :
-			[ 'autorization_code', 'refresh_token' ];
+			[ 'authorization_code', 'refresh_token', 'client_credentials' ];
 	};
 
 	NewClient.prototype.getData = function () {
