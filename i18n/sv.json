@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Sabelöga",
 			"WikiPhoenix"
 		]
@@ -13,7 +14,7 @@
 	"wikimediaapiportaloauth-ui-client-action-disable": "Inaktivera",
 	"wikimediaapiportaloauth-ui-client-details-title": "Applikationsdetaljer",
 	"wikimediaapiportaloauth-ui-client-field-desc": "Applikationsbeskrivning",
-	"wikimediaapiportaloauth-ui-client-field-client-key": "Klient-ID",
+	"wikimediaapiportaloauth-ui-client-field-client-key": "Klient-ID:",
 	"wikimediaapiportaloauth-ui-client-field-account-type": "Kontotyp",
 	"wikimediaapiportaloauth-ui-client-field-account-type-developer": "Utvecklarkonto",
 	"wikimediaapiportaloauth-ui-client-field-account-type-bot": "Botkonto",

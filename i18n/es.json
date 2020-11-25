@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Fitoschido",
 			"Mpayansilva"
 		]
@@ -14,7 +15,7 @@
 	"wikimediaapiportaloauth-ui-client-details-title": "Detalles de la aplicación",
 	"wikimediaapiportaloauth-ui-client-field-name": "Nombre del cliente:",
 	"wikimediaapiportaloauth-ui-client-field-desc": "Descripción de la aplicación",
-	"wikimediaapiportaloauth-ui-client-field-client-key": "Id. de cliente",
+	"wikimediaapiportaloauth-ui-client-field-client-key": "Id. de cliente:",
 	"wikimediaapiportaloauth-ui-client-field-account-type": "Tipo de cuenta",
 	"wikimediaapiportaloauth-ui-client-field-account-type-developer": "Cuenta de desarrollo",
 	"wikimediaapiportaloauth-ui-client-field-account-type-bot": "Cuenta robot",
