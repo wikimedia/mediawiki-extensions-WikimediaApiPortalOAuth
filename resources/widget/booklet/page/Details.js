@@ -9,7 +9,11 @@
 	 * @param {Object} cfg - Config.
 	 */
 	var Details = function ( name, cfg ) {
+		var actionApi;
 		Details.super.call( this, name, cfg );
+
+		actionApi = new mw.ForeignApi( mw.apiportal.util.targetApiURL );
+		this.restApi = new mw.ForeignRest( mw.apiportal.util.targetRestURL, actionApi );
 	};
 
 	OO.inheritClass( Details, mw.apiportal.booklet.page.Base );
@@ -44,22 +48,16 @@
 	};
 
 	Details.prototype.resetSecret = function () {
-		var deferred = $.Deferred();
+		var deferred = $.Deferred(),
+			clientKey = this.client.get( 'client_key' );
 
-		$.ajax( {
-			url: this.getResetSecretUrl(),
-			contentType: 'application/json',
-			type: 'POST',
-			crossDomain: true,
-			xhrFields: {
-				withCredentials: true
-			}
-		} )
+		this.restApi.post( '/oauth2/client/' + clientKey + '/reset_secret' )
 			.then( function ( response ) {
 				deferred.resolve( response );
 			} )
-			.catch( function ( jqXHR ) {
-				deferred.reject( mw.apiportal.util.getErrorTextFromXHR( jqXHR ) );
+			.catch( function ( error, detail ) {
+				var xhr = error === 'http' ? detail.xhr : undefined;
+				deferred.reject( mw.apiportal.util.getErrorTextFromXHR( xhr ) );
 			} );
 
 		return deferred.promise();
@@ -68,11 +66,6 @@
 	Details.prototype.getAbilities = function () {
 		var stage = parseInt( this.client.get( 'stage' ) );
 		return stage !== 0 && stage !== 1 ? { reset: false, close: true } : null;
-	};
-
-	Details.prototype.getResetSecretUrl = function () {
-		var clientKey = this.client.get( 'client_key' );
-		return mw.apiportal.util.targetRestURL + '/oauth2/client/' + clientKey + '/reset_secret';
 	};
 
 	mw.apiportal.booklet.page.Details = Details;

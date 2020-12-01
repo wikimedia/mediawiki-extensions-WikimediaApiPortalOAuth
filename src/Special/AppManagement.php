@@ -49,6 +49,7 @@ class AppManagement extends SpecialPage {
 		] ) );
 		$output->addJsConfigVars( [
 			'wgWikimediaApiPortalOAuthMetaRestURL' => $this->getConfig()->get( 'WikimediaApiPortalOAuthMetaRestURL' ),
+			'wgWikimediaApiPortalOAuthMetaApiURL' => $this->getConfig()->get( 'WikimediaApiPortalOAuthMetaApiURL' ),
 			'wgWikimediaApiPortalUserEmail' => $this->getUser()->getEmail()
 		] );
 	}

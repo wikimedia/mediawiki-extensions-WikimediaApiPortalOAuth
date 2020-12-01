@@ -9,6 +9,8 @@
 	 * @param {Object} cfg - Config.
 	 */
 	var NewClient = function ( name, cfg ) {
+		var actionApi = new mw.ForeignApi( mw.apiportal.util.targetApiURL );
+		this.restApi = new mw.ForeignRest( mw.apiportal.util.targetRestURL, actionApi );
 		NewClient.super.call( this, name, cfg );
 	};
 
@@ -175,24 +177,19 @@
 	};
 
 	NewClient.prototype.createClient = function () {
-		var dfd = $.Deferred();
+		var dfd = $.Deferred(),
+			self = this;
 
 		this.getInputValidity().done( function () {
-			$.ajax( {
-				url: mw.apiportal.util.targetRestURL + '/oauth2/client',
-				data: this.getData(),
-				type: 'POST',
-				crossDomain: true,
-				xhrFields: {
-					withCredentials: true
-				}
-			} ).done( function ( response ) {
-				dfd.resolve( response );
-			} )
-				.fail( function ( jqXHR ) {
-					dfd.reject( mw.apiportal.util.getErrorTextFromXHR( jqXHR ) );
+			self.restApi.post( '/oauth2/client', self.getData() )
+				.then( function ( response ) {
+					dfd.resolve( response );
+				} )
+				.catch( function ( error, detail ) {
+					var xhr = error === 'http' ? detail.xhr : undefined;
+					dfd.reject( mw.apiportal.util.getErrorTextFromXHR( xhr ) );
 				} );
-		}.bind( this ) );
+		} );
 
 		return dfd.promise();
 	};

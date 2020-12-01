@@ -105,6 +105,10 @@
 		"AppManagement": "MediaWiki\\Extension\\WikimediaApiPortalOAuth\\Special\\AppManagement"
 	},
 	"config": {
+		"WikimediaApiPortalOAuthMetaApiURL": {
+			"value": "https://meta.wikimedia.org/w/api.php",
+			"description": "URL to api.php on Meta"
+		},
 		"WikimediaApiPortalOAuthMetaRestURL": {
 			"value": "https://meta.wikimedia.org/w/rest.php",
 			"description": "URL to rest.php on Meta"
