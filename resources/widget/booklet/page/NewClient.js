@@ -16,11 +16,6 @@
 
 	OO.inheritClass( NewClient, mw.apiportal.booklet.page.Base );
 
-	NewClient.static.grantMapping = {
-		read: [ 'basic' ],
-		write: [ 'basic', 'createeditmovepage', 'editprotected' ]
-	};
-
 	NewClient.prototype.getLabel = function () {
 		return mw.message( 'wikimediaapiportaloauth-ui-new-client-title' ).text();
 	};
@@ -32,11 +27,13 @@
 
 		this.inputs = {};
 		this.inputs.name = new OO.ui.TextInputWidget( {
-			required: true
+			required: true,
+			placeholder: mw.message( 'wikimediaapiportaloauth-ui-client-field-name-help' ).text()
 		} );
 		this.inputs.description = new OO.ui.MultilineTextInputWidget( {
 			required: true,
-			rows: 2
+			rows: 2,
+			placeholder: mw.message( 'wikimediaapiportaloauth-ui-client-field-desc-help' ).text()
 		} );
 
 		this.inputs.type = new OO.ui.RadioSelectInputWidget( {
@@ -44,6 +41,10 @@
 				{
 					data: 'developer',
 					label: mw.message( 'wikimediaapiportaloauth-ui-client-field-account-type-developer' ).text()
+				},
+				{
+					data: 'mobile',
+					label: mw.message( 'wikimediaapiportaloauth-ui-client-field-account-type-mobile' ).text()
 				},
 				{
 					data: 'bot',
@@ -60,11 +61,13 @@
 			required: true
 		} );
 
-		this.inputs.permissions = new OO.ui.RadioSelectInputWidget( {
+		this.inputs.permissions = new OO.ui.CheckboxMultiselectInputWidget( {
+			value: [ 'read' ],
 			options: [
 				{
 					data: 'read',
-					label: mw.message( 'wikimediaapiportaloauth-ui-client-field-permissions-read' ).text()
+					label: mw.message( 'wikimediaapiportaloauth-ui-client-field-permissions-read' ).text(),
+					disabled: true
 				},
 				{
 					data: 'write',
@@ -75,10 +78,6 @@
 
 		this.inputs.checks = new OO.ui.CheckboxMultiselectInputWidget( {
 			options: [
-				{
-					data: 'confidential',
-					label: new OO.ui.HtmlSnippet( mw.message( 'wikimediaapiportaloauth-ui-client-field-confidential' ).parse() )
-				},
 				{
 					data: 'termsOfService',
 					label: new OO.ui.HtmlSnippet( mw.message( 'wikimediaapiportaloauth-ui-client-field-terms-of-service' ).parse() )
@@ -101,7 +100,9 @@
 			} ),
 			callbackURI: new OO.ui.FieldLayout( this.inputs.callbackURI, {
 				align: 'top',
-				label: mw.message( 'wikimediaapiportaloauth-ui-client-field-callback-uri' ).text()
+				label: mw.message( 'wikimediaapiportaloauth-ui-client-field-callback-uri' ).text(),
+				helpInline: true,
+				help: new OO.ui.HtmlSnippet( mw.message( 'wikimediaapiportaloauth-ui-client-field-callback-uri-help' ).parse() )
 			} ),
 			permissions: new OO.ui.FieldLayout( this.inputs.permissions, {
 				align: 'top',
@@ -220,7 +221,7 @@
 			callback_url: this.inputs.callbackURI.getValue(),
 			callback_is_prefix: true,
 			email: mw.apiportal.util.userEmail,
-			is_confidential: this.inputs.checks.getValue().indexOf( 'confidential' ) !== -1,
+			is_confidential: this.inputs.type.getValue() !== 'mobile',
 			grant_types: this.getGrantTypes().join( '|' ),
 			scopes: this.getMappedScopes().join( '|' )
 		};
@@ -228,22 +229,24 @@
 	};
 
 	NewClient.prototype.getMappedScopes = function () {
-		var selection = this.inputs.permissions.getValue();
-		if ( Object.prototype.hasOwnProperty.call( NewClient.static.grantMapping, selection ) ) {
-			return NewClient.static.grantMapping[ selection ];
+		var clientScopes = [ 'basic' ];
+
+		if ( this.inputs.permissions.getValue().indexOf( 'write' ) !== -1 ) {
+			clientScopes.push( 'createeditmovepage', 'editprotected' );
 		}
 
-		return [];
+		return clientScopes;
 	};
 
 	NewClient.prototype.onTypeChange = function ( value ) {
 		if ( value === 'bot' ) {
 			this.inputs.callbackURI.setRequired( false );
 			this.layouts.callbackURI.setErrors( [] );
+			this.layouts.callbackURI.toggle( false );
 		} else {
 			this.inputs.callbackURI.setRequired( true );
+			this.layouts.callbackURI.toggle( true );
 		}
-		this.layouts.callbackURI.toggle();
 	};
 
 	mw.apiportal.booklet.page.NewClient = NewClient;

@@ -41,6 +41,10 @@ class AppManagement extends SpecialPage {
 			return;
 		}
 
+		$output->addHTML(
+			$this->msg( 'wikimediaapiportaloauth-page-introduction' )
+		);
+
 		$output->addModules(
 			'ext.wikimediaapiportaloauth.keyManagement'
 		);
