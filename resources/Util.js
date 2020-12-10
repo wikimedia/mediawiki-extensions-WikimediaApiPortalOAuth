@@ -2,7 +2,7 @@
 	var Util = {
 		getErrorTextFromXHR: function ( xhr ) {
 			var message = '';
-			if ( xhr.responseJSON !== undefined ) {
+			if ( xhr && xhr.responseJSON !== undefined ) {
 				message = xhr.responseJSON.error || xhr.responseJSON.message;
 			}
 
@@ -18,6 +18,7 @@
 			}
 		},
 		targetRestURL: mw.config.get( 'wgWikimediaApiPortalOAuthMetaRestURL' ),
+		targetApiURL: mw.config.get( 'wgWikimediaApiPortalOAuthMetaApiURL' ),
 		userEmail: mw.config.get( 'wgWikimediaApiPortalUserEmail' )
 	};
 

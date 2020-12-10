@@ -7,9 +7,12 @@
 	 * @param {number} cfg.pageLimit - Page limit number.
 	 */
 	var KeyOverview = function ( cfg ) {
+		var actionApi = new mw.ForeignApi( mw.apiportal.util.targetApiURL );
+
 		this.$element = cfg.$element;
 		this.pageLimit = cfg.pageLimit;
 		this.offset = 0;
+		this.restApi = new mw.ForeignRest( mw.apiportal.util.targetRestURL, actionApi );
 
 		this.newClientButton = new OO.ui.ButtonWidget( {
 			label: mw.message( 'wikimediaapiportaloauth-ui-action-new-client' ).text(),
@@ -47,31 +50,26 @@
 			/* eslint-enable camelcase */
 			sort: JSON.stringify( { property: 'registration', direction: 'DESC' } )
 		}, data );
-		$.ajax( {
-			url: mw.apiportal.util.targetRestURL + '/oauth2/client',
-			type: 'GET',
-			data: data,
-			crossDomain: true,
-			xhrFields: {
-				withCredentials: true
-			}
-		} ).then(
-			function ( response ) {
-				this.showLoading( false );
-				if ( Object.prototype.hasOwnProperty.call( response, 'clients' ) ) {
-					this.buildList( response.clients );
-				}
-				if ( initial && Object.prototype.hasOwnProperty.call( response, 'total' ) ) {
-					if ( response.total > this.pageLimit ) {
-						this.buildPagination( response.total );
+
+		this.restApi.get( '/oauth2/client', data )
+			.then(
+				function ( response ) {
+					this.showLoading( false );
+					if ( Object.prototype.hasOwnProperty.call( response, 'clients' ) ) {
+						this.buildList( response.clients );
 					}
-				}
-			}.bind( this ),
-			function ( error ) {
-				this.showLoading( false );
-				this.processError( error );
-			}.bind( this )
-		);
+					if ( initial && Object.prototype.hasOwnProperty.call( response, 'total' ) ) {
+						if ( response.total > this.pageLimit ) {
+							this.buildPagination( response.total );
+						}
+					}
+				}.bind( this ),
+				function ( error, detail ) {
+					var xhr = error === 'http' ? detail.xhr : undefined;
+					this.showLoading( false );
+					this.processError( mw.apiportal.util.getErrorTextFromXHR( xhr ) );
+				}.bind( this )
+			);
 	};
 
 	KeyOverview.prototype.buildList = function ( clients ) {
