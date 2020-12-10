@@ -51,7 +51,8 @@
 		var deferred = $.Deferred(),
 			clientKey = this.client.get( 'client_key' );
 
-		this.restApi.post( '/oauth2/client/' + clientKey + '/reset_secret' )
+		// Not using .post since it only supports JSON, and OAuth REST API is not.
+		this.restApi.ajax( '/oauth2/client/' + clientKey + '/reset_secret', { type: 'POST' } )
 			.then( function ( response ) {
 				deferred.resolve( response );
 			} )

@@ -181,7 +181,11 @@
 			self = this;
 
 		this.getInputValidity().done( function () {
-			self.restApi.post( '/oauth2/client', self.getData() )
+			// Not using .post since it only supports JSON, and OAuth REST API is not.
+			self.restApi.ajax( '/oauth2/client', {
+				type: 'POST',
+				data: self.getData()
+			} )
 				.then( function ( response ) {
 					dfd.resolve( response );
 				} )
