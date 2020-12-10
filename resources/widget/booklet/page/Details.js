@@ -52,7 +52,10 @@
 			clientKey = this.client.get( 'client_key' );
 
 		// Not using .post since it only supports JSON, and OAuth REST API is not.
-		this.restApi.ajax( '/oauth2/client/' + clientKey + '/reset_secret', { type: 'POST' } )
+		this.restApi.ajax( '/oauth2/client/' + clientKey + '/reset_secret', {
+			type: 'POST',
+			data: {}
+		} )
 			.then( function ( response ) {
 				deferred.resolve( response );
 			} )
