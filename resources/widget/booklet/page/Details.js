@@ -54,7 +54,8 @@
 		// Not using .post since it only supports JSON, and OAuth REST API is not.
 		this.restApi.ajax( '/oauth2/client/' + clientKey + '/reset_secret', {
 			type: 'POST',
-			data: {}
+			data: {},
+			contentType: 'application/x-www-form-urlencoded'
 		} )
 			.then( function ( response ) {
 				deferred.resolve( response );
