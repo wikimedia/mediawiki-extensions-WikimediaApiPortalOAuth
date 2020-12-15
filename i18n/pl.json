@@ -23,7 +23,6 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Tylko do odczytu",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Odczyt i zapis",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Zgody:",
-	"wikimediaapiportaloauth-ui-client-field-confidential": "Jestem w stanie zapewnić bezpieczeństwo poświadczenia mojej aplikacji",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Akceptuję warunki korzystania z usługi",
 	"wikimediaapiportaloauth-ui-new-client-title": "Tworzenie aplikacji",
 	"wikimediaapiportaloauth-ui-action-reset-secret": "Zresetuj sekret klienta",

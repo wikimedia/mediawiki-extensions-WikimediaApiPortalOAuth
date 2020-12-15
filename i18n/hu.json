@@ -22,7 +22,6 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Kizárólag olvasásra",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Olvasás/írás",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Megállapodások:",
-	"wikimediaapiportaloauth-ui-client-field-confidential": "Biztonságos helyen fogom tárolni kliensem hitelesítési adatait. Információk a [[megfelelő biztonsági intézkedésekről]].",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Elfogadom a Wikimedia API [[foundation:Special:MyLanguage/Terms_of_Use|szerződési feltételeit]].",
 	"wikimediaapiportaloauth-ui-new-client-title": "Kliens létrehozása",
 	"wikimediaapiportaloauth-ui-action-reset-secret": "Kliens titok cseréje",

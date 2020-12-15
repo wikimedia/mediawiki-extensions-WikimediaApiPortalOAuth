@@ -23,7 +23,6 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Yalnızca oku",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Oku/yaz",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Anlaşmalar:",
-	"wikimediaapiportaloauth-ui-client-field-confidential": "Müşteri kimlik bilgilerimi güvenli bir şekilde saklayacağım. [[security best practices|En iyi güvenlik uygulamaları]] hakkında bilgi edinin.",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Wikimedia API [[foundation:Special:MyLanguage/Terms_of_Use|kullanım şartlarını]] kabul ediyorum.",
 	"wikimediaapiportaloauth-ui-new-client-title": "İstemci oluştur",
 	"wikimediaapiportaloauth-ui-action-reset-secret": "İstemci sırrını sıfırlayın",

@@ -23,7 +23,6 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Само читање",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Читање/пишување",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Согласности:",
-	"wikimediaapiportaloauth-ui-client-field-confidential": "Ќе ги зачувам моите клиентски најавни податоци на безбедно место. Дознајте за [[security best practices|најдобрите практики за безбедност]].",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Се согласувам со [[foundation:Special:MyLanguage/Terms_of_Use|условите на употреба]] на Викимедииниот извршник.",
 	"wikimediaapiportaloauth-ui-new-client-title": "Создај клиент",
 	"wikimediaapiportaloauth-ui-action-reset-secret": "Нова клиентска тајна",

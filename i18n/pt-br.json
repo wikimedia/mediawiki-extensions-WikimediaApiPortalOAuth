@@ -23,7 +23,6 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Somente leitura",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Ler/escrever",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Acordos:",
-	"wikimediaapiportaloauth-ui-client-field-confidential": "Vou armazenar minhas credenciais de cliente com segurança. Aprenda sobre [[security best practices|melhores práticas de segurança]].",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Eu concordo com a API da Wikimedia\n[[foundation:Special:MyLanguage/Terms_of_Use|Termos de uso]].",
 	"wikimediaapiportaloauth-ui-new-client-title": "Criar cliente",
 	"wikimediaapiportaloauth-ui-action-reset-secret": "Redefinir segredo do cliente",

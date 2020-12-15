@@ -24,7 +24,6 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Lecture seule",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Lecture/écriture",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Accords :",
-	"wikimediaapiportaloauth-ui-client-field-confidential": "Je stockerai mes certificats client de façon sécurisée. En savoir plus sur [[security best practices|les bonnes pratiques de sécurité]].",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "J’accepte les [[foundation:Special:MyLanguage/Terms_of_Use|conditions d’utilisation]] de l’API Wikimédia.",
 	"wikimediaapiportaloauth-ui-new-client-title": "Créer le client",
 	"wikimediaapiportaloauth-ui-action-reset-secret": "Réinitialiser le secret du client",

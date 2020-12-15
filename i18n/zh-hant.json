@@ -23,7 +23,6 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "唯讀",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "讀取/寫入",
 	"wikimediaapiportaloauth-ui-client-field-checks": "協議：",
-	"wikimediaapiportaloauth-ui-client-field-confidential": "我會小心地儲存我的客戶端憑證。了解[[security best practices|安全性最佳實踐]]。",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "我同意維基媒體 API 的[[foundation:Special:MyLanguage/Terms_of_Use|使用條款]]。",
 	"wikimediaapiportaloauth-ui-new-client-title": "建立客戶端",
 	"wikimediaapiportaloauth-ui-action-reset-secret": "重新設定客戶端密鑰",

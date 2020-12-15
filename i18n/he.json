@@ -23,7 +23,6 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "קריאה בלבד",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "קריאה וכתיבה",
 	"wikimediaapiportaloauth-ui-client-field-checks": "הסכמים:",
-	"wikimediaapiportaloauth-ui-client-field-confidential": "אני יכול לשמור על נתוני ההאמנה של הלקוח שלי מאובטחים. מידע נוסף על [[security best practices|שיטות טובות לאבטחה]].",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "אני מסכים ל[[foundation:Special:MyLanguage/Terms_of_Use|תנאי השימוש]] של ה־API של ויקימדיה.",
 	"wikimediaapiportaloauth-ui-new-client-title": "יצירת לקוח",
 	"wikimediaapiportaloauth-ui-action-reset-secret": "אתחול סוד הלקוח",
