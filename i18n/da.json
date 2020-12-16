@@ -4,12 +4,12 @@
 			"Saederup92"
 		]
 	},
-	"appmanagement": "Mine klienter",
+	"appmanagement": "API-nøgler",
 	"wikimediaapiportaloauth-ui-client-field-name": "Klientnavn:",
-	"wikimediaapiportaloauth-ui-client-field-account-type": "Klienttype:",
+	"wikimediaapiportaloauth-ui-client-field-account-type": "Nøgletype:",
 	"wikimediaapiportaloauth-ui-client-field-permissions": "Tilladelser:",
-	"wikimediaapiportaloauth-ui-new-client-title": "Opret klient",
+	"wikimediaapiportaloauth-ui-new-client-title": "Opret API-nøgle",
 	"wikimediaapiportaloauth-ui-client-status-expired": "Udløbet",
 	"wikimediaapiportaloauth-ui-client-status-disabled": "Deaktiveret",
-	"wikimediaapiportaloauth-ui-action-new-client": "Opret klient"
+	"wikimediaapiportaloauth-ui-action-new-client": "Opret nøgle"
 }

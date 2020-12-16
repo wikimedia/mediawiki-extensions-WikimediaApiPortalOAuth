@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Filipinayzd"
+		]
+	},
+	"appmanagement": "Mga susi ka API",
+	"wikimediaapiportaloauth-ui-client-details-title": "Mga susing detalye",
+	"wikimediaapiportaloauth-ui-client-field-name": "Ngaran ka App:",
+	"wikimediaapiportaloauth-ui-client-field-account-type": "Tipo ka susi:",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Basahun a mga pahina",
+	"wikimediaapiportaloauth-ui-client-field-checks": "Termino ka gamit:",
+	"wikimediaapiportaloauth-ui-new-client-title": "Gumibo sa susing API",
+	"wikimediaapiportaloauth-ui-action-new-client": "Gumibo sa susi"
+}
