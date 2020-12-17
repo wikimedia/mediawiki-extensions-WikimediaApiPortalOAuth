@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Verdy p"
+			"Verdy p",
+			"Wladek92"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "Permet aux utilisateurs du portail de l’API de Wikimédia de créer et gérer des clients OAuth à distance",
@@ -22,13 +23,13 @@
 	"wikimediaapiportaloauth-ui-client-field-account-type": "Type de clé :",
 	"wikimediaapiportaloauth-ui-client-field-account-type-developer": "Application côté serveur (sites web traditionnels et applications serveur web)",
 	"wikimediaapiportaloauth-ui-client-field-account-type-mobile": "Application côté client ou installée (mobile, bureau et applications mono-page)",
-	"wikimediaapiportaloauth-ui-client-field-account-type-bot": "Jeton personnel de l’API (pour votre seul usage)",
+	"wikimediaapiportaloauth-ui-client-field-account-type-bot": "Jeton personnel de l’API (pour votre propre usage)",
 	"wikimediaapiportaloauth-ui-client-field-permissions": "Droits :",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Lire les pages",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Créer et modifier les pages",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Conditions d’utilisation :",
-	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "J’accepte les [[foundation:Special:MyLanguage/Terms_of_Use|conditions d’utilisation]] de l’API Wikimédia. Je reconnais que ma clé API peut être désactivée si je viole ces conditions.",
-	"wikimediaapiportaloauth-ui-new-client-title": "Créer la clé API",
+	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "J’accepte les [[foundation:Special:MyLanguage/Terms_of_Use|conditions d’utilisation]] de Wikimédia. Je reconnais que ma clé API peut être désactivée si je viole ces conditions.",
+	"wikimediaapiportaloauth-ui-new-client-title": "Créer la clé de l'API",
 	"wikimediaapiportaloauth-ui-action-reset-secret": "Réinitialiser le secret",
 	"wikimediaapiportaloauth-ui-action-cancel": "Annuler",
 	"wikimediaapiportaloauth-ui-action-create": "Créer",
@@ -53,6 +54,6 @@
 	"wikimediaapiportaloauth-ui-client-status-approved": "Approuvé",
 	"wikimediaapiportaloauth-ui-action-new-client": "Créer la clé",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "État : $1",
-	"wikimediaapiportaloauth-email-not-confirmed": "Avant de créer votre clé d’API, veuillez confirmer votre adresse de messagerie via vos [[Special:Preferences|préférences utilisateur]].",
-	"wikimediaapiportaloauth-page-introduction": "Créer une clé API pour démarrer la construction d’applications  de libre connaissance. En savoir plus sur [[Documentation/Getting started/Authentication|l’authentification de l’API]] et [[Documentation/Getting started/Rate limits|des limites de taux]]."
+	"wikimediaapiportaloauth-email-not-confirmed": "Avant de créer votre clé d’API, veuillez confirmer votre adresse de messagerie dans vos [[Special:Preferences|préférences utilisateur]].",
+	"wikimediaapiportaloauth-page-introduction": "Créer une clé API pour démarrer la construction d’applications de libre connaissance. En savoir plus sur [[Documentation/Getting started/Authentication|l’authentification de l’API]] et [[Documentation/Getting started/Rate limits|les limites de taux]]."
 }

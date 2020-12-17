@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tomasdd"
+		]
+	},
+	"appmanagement": "API raktai",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Kurti ir redaguoti puslapius",
+	"wikimediaapiportaloauth-ui-client-field-checks": "Naudojimosi sąlygos:",
+	"wikimediaapiportaloauth-ui-action-new-client": "Sukurti naują"
+}
