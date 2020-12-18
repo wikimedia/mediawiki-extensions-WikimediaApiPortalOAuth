@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
+			"Thibaut120094",
 			"Verdy p",
 			"Wladek92"
 		]
@@ -14,13 +15,13 @@
 	"wikimediaapiportaloauth-ui-client-action-view-details": "Afficher les détails",
 	"wikimediaapiportaloauth-ui-client-action-disable": "Désactiver",
 	"wikimediaapiportaloauth-ui-client-details-title": "Détails de la clé",
-	"wikimediaapiportaloauth-ui-client-field-name": "Nom de l’application :",
+	"wikimediaapiportaloauth-ui-client-field-name": "Nom de l’application :",
 	"wikimediaapiportaloauth-ui-client-field-name-help": "Ceci est affiché aux utilisateurs de votre application lors de l’autorisation.",
 	"wikimediaapiportaloauth-ui-client-field-desc": "Description de l’application :",
 	"wikimediaapiportaloauth-ui-client-field-desc-help": "Pour aider le processus d’approbation, partager quelques détails sur votre application.",
 	"wikimediaapiportaloauth-ui-client-field-callback-uri": "URI de redirection :",
 	"wikimediaapiportaloauth-ui-client-field-client-key": "ID du client :",
-	"wikimediaapiportaloauth-ui-client-field-account-type": "Type de clé :",
+	"wikimediaapiportaloauth-ui-client-field-account-type": "Type de clé :",
 	"wikimediaapiportaloauth-ui-client-field-account-type-developer": "Application côté serveur (sites web traditionnels et applications serveur web)",
 	"wikimediaapiportaloauth-ui-client-field-account-type-mobile": "Application côté client ou installée (mobile, bureau et applications mono-page)",
 	"wikimediaapiportaloauth-ui-client-field-account-type-bot": "Jeton personnel de l’API (pour votre propre usage)",
@@ -28,7 +29,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Lire les pages",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Créer et modifier les pages",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Conditions d’utilisation :",
-	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "J’accepte les [[foundation:Special:MyLanguage/Terms_of_Use|conditions d’utilisation]] de Wikimédia. Je reconnais que ma clé API peut être désactivée si je viole ces conditions.",
+	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "J’accepte les [[foundation:Special:MyLanguage/Terms_of_Use|conditions d’utilisation]] de Wikimedia. Je reconnais que ma clé API peut être désactivée si je viole ces conditions.",
 	"wikimediaapiportaloauth-ui-new-client-title": "Créer la clé de l'API",
 	"wikimediaapiportaloauth-ui-action-reset-secret": "Réinitialiser le secret",
 	"wikimediaapiportaloauth-ui-action-cancel": "Annuler",

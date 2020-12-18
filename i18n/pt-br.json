@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eduardo Addad de Oliveira"
+			"Eduardo Addad de Oliveira",
+			"Mariaalmeida"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "Permite que os usuários do Portal de API da Wikimedia criem e gerenciem clientes OAuth remotamente",
@@ -20,7 +21,7 @@
 	"wikimediaapiportaloauth-ui-client-field-client-key": "ID do cliente:",
 	"wikimediaapiportaloauth-ui-client-field-account-type": "Tipo de chave:",
 	"wikimediaapiportaloauth-ui-client-field-account-type-developer": "Aplicativo do lado do servidor (sites tradicionais e aplicativos de servidor da web)",
-	"wikimediaapiportaloauth-ui-client-field-account-type-mobile": "Aplicativo do lado do cliente ou instalado (aplicativos móveis, de desktop e de página única)",
+	"wikimediaapiportaloauth-ui-client-field-account-type-mobile": "Aplicativo do cliente ou instalado (aplicativos móveis, de desktop e de página única)",
 	"wikimediaapiportaloauth-ui-client-field-account-type-bot": "Token de API pessoal (apenas para seu uso)",
 	"wikimediaapiportaloauth-ui-client-field-permissions": "Permissões:",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Ler páginas",

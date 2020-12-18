@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Javiero"
+		]
+	},
+	"appmanagement": "API ŝlosiloj",
+	"wikimediaapiportaloauth-ui-client-field-name": "App nomo:",
+	"wikimediaapiportaloauth-ui-client-field-desc": "App priskribo:",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Legi paĝojn",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Krei kaj redakti paĝojn.",
+	"wikimediaapiportaloauth-ui-client-field-checks": "Uzkondiĉoj:"
+}
