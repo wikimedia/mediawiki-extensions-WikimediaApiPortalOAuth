@@ -3,7 +3,8 @@
 		"authors": [
 			"Beta16",
 			"Luca.favorido",
-			"Mpayansilva"
+			"Mpayansilva",
+			"ValeJappo"
 		]
 	},
 	"appmanagement": "Chiavi API",
@@ -15,7 +16,7 @@
 	"wikimediaapiportaloauth-ui-client-field-client-key": "ID cliente:",
 	"wikimediaapiportaloauth-ui-client-field-account-type": "Tipo chiave:",
 	"wikimediaapiportaloauth-ui-client-field-permissions": "Permessi:",
-	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Legge pagine",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Leggi pagine",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Condizioni d'uso:",
 	"wikimediaapiportaloauth-ui-new-client-title": "Crea chiave API",
 	"wikimediaapiportaloauth-ui-action-cancel": "Annulla",
