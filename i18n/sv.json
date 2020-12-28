@@ -6,7 +6,7 @@
 			"WikiPhoenix"
 		]
 	},
-	"appmanagement": "Applikationshantering",
+	"appmanagement": "API-nycklar",
 	"action-wikimediaapiportaloauth-manage-oauth": "hantera OAuth-klienter",
 	"right-wikimediaapiportaloauth-manage-oauth": "Hantera OAuth-klienter",
 	"wikimediaapiportaloauth-api-error-invalid-action": "Handlingen '$1' är ogiltig",
@@ -31,7 +31,7 @@
 	"wikimediaapiportaloauth-ui-client-status-expired": "Utgången",
 	"wikimediaapiportaloauth-ui-client-status-disabled": "Avaktiverad",
 	"wikimediaapiportaloauth-ui-client-status-approved": "Godkänd",
-	"wikimediaapiportaloauth-ui-action-new-client": "Ny klient",
+	"wikimediaapiportaloauth-ui-action-new-client": "Skapa nyckel",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Status: $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "E-postadress är inte bekräftad"
 }
