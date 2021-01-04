@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tofeiku"
+		]
+	},
+	"wikimediaapiportaloauth-ui-client-field-account-type": "Jenis penting:",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Baca laman",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Cipta dan sunting laman"
+}

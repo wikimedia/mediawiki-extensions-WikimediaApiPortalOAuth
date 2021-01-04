@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Veeven"
+		]
+	},
+	"wikimediaapiportaloauth-ui-client-field-name": "అనువర్తనం పేరు:",
+	"wikimediaapiportaloauth-ui-client-field-desc": "అనువర్తన వివరణ:",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "పేజీలు చదవడం",
+	"wikimediaapiportaloauth-ui-client-field-checks": "వాడుక నియమాలు"
+}
