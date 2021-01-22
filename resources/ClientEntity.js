@@ -22,7 +22,8 @@
 		'oauth_version',
 		'description',
 		'registration_formatted',
-		'oauth2_grant_types'
+		'oauth2_grant_types',
+		'owner_only'
 	];
 
 	ClientEntity.static.labels = {

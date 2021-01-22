@@ -36,13 +36,18 @@
 				new OO.ui.FieldLayout( new OO.ui.LabelWidget( { label: this.client.get( 'client_key' ) } ), {
 					align: 'top',
 					label: this.client.getLabel( 'client_key' )
-				} ),
+				} )
+			]
+		} );
+
+		if ( !this.client.get( 'owner_only' ) ) {
+			layout.addItems( [
 				new OO.ui.FieldLayout( new OO.ui.LabelWidget( { label: this.client.get( 'callback_url' ) } ), {
 					align: 'top',
 					label: this.client.getLabel( 'callback_url' )
 				} )
-			]
-		} );
+			] );
+		}
 
 		this.content.$element.append( layout.$element );
 	};
