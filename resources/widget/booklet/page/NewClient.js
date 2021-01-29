@@ -137,6 +137,9 @@
 		this.content.$element.append( new OO.ui.FieldsetLayout( {
 			items: layouts
 		} ).$element );
+
+		// Open documentation links in new tabs
+		this.content.$element.find( 'a' ).attr( 'target', '_blank' );
 	};
 
 	NewClient.prototype.getInputValidity = function () {
