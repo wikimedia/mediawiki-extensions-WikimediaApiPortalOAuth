@@ -4,5 +4,7 @@
 			"Reedy"
 		]
 	},
+	"wikimediaapiportaloauth-ui-client-field-name-help": "This is displayed to users of your app during authorisation.",
+	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Users are redirected to this path following successful authorisation. [[Documentation/Getting started/Authentication#Choosing_a_redirect_URI|Learn more.]]",
 	"wikimediaapiportaloauth-ui-client-status-proposed-help": "Before your client can be authorised by other users, it must be reviewed and approved by Wikimedia OAuth admins."
 }
