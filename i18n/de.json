@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"FF-11",
 			"Umherirrender"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "Ermöglicht es Benutzern des Wikimedia API-Portals, OAuth-Clients per Fernzugriff zu erstellen und zu verwalten",
 	"appmanagement": "API-Schlüssel",
-	"action-wikimediaapiportaloauth-manage-oauth": "OAuth-Berechtigungen verwalten",
+	"action-wikimediaapiportaloauth-manage-oauth": "OAuth-Berechtigungen zu verwalten",
 	"right-wikimediaapiportaloauth-manage-oauth": "OAuth-Berechtigungen verwalten",
 	"wikimediaapiportaloauth-api-error-invalid-action": "Aktion „$1“ ist ungültig",
 	"wikimediaapiportaloauth-ui-client-action-view-details": "Einzelheiten ansehen",
