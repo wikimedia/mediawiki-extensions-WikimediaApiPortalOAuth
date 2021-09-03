@@ -29,6 +29,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions": "Form field label for field permissions",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Label for the 'read' permissions option",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Label for the 'write' permissions option",
+	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "Label for the 'write' permissions option for protected pages",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Form field label for the confidential and terms of use checkboxes",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Label for the terms of services consent, containing the list to site's terms and services page",
 	"wikimediaapiportaloauth-ui-new-client-title": "Title label for the new client dialog",
