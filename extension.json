@@ -69,6 +69,7 @@
 				"wikimediaapiportaloauth-ui-client-field-permissions",
 				"wikimediaapiportaloauth-ui-client-field-permissions-read",
 				"wikimediaapiportaloauth-ui-client-field-permissions-read-write",
+				"wikimediaapiportaloauth-ui-client-field-permissions-write-protected",
 				"wikimediaapiportaloauth-ui-client-field-checks",
 				"wikimediaapiportaloauth-ui-client-field-terms-of-service",
 				"wikimediaapiportaloauth-ui-new-client-title",

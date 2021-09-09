@@ -72,6 +72,10 @@
 				{
 					data: 'write',
 					label: mw.message( 'wikimediaapiportaloauth-ui-client-field-permissions-read-write' ).text()
+				},
+				{
+					data: 'write-protected',
+					label: mw.message( 'wikimediaapiportaloauth-ui-client-field-permissions-write-protected' ).text()
 				}
 			]
 		} );
@@ -235,7 +239,11 @@
 		var clientScopes = [ 'basic' ];
 
 		if ( this.inputs.permissions.getValue().indexOf( 'write' ) !== -1 ) {
-			clientScopes.push( 'createeditmovepage', 'editprotected' );
+			clientScopes.push( 'createeditmovepage' );
+		}
+
+		if ( this.inputs.permissions.getValue().indexOf( 'write-protected' ) !== -1 ) {
+			clientScopes.push( 'editprotected' );
 		}
 
 		return clientScopes;

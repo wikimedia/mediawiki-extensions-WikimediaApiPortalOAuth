@@ -27,6 +27,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions": "Permissions:",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Read pages",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Create and edit pages",
+	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "Edit protected pages",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Terms of use:",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "I agree to the Wikimedia [[foundation:Special:MyLanguage/Terms_of_Use|terms of use]]. I acknowledge that my API key may be disabled if I violate these terms.",
 	"wikimediaapiportaloauth-ui-new-client-title": "Create API key",
