@@ -26,6 +26,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions": "Rechte:",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Seiten lesen",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Erstellen und Bearbeiten von Seiten.",
+	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "Geschützte Seiten bearbeiten",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Nutzungsbedingungen",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Ich stimme den [[foundation:Special:MyLanguage/Terms_of_Use|Nutzungsbedingungen]] der Wikimedia zu. Ich erkenne an, dass mein API-Schlüssel deaktiviert werden kann, wenn ich gegen diese Bedingungen verstoße.",
 	"wikimediaapiportaloauth-ui-new-client-title": "API-Schlüssel erstellen",

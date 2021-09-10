@@ -17,6 +17,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions": "권한:",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "페이지 읽기",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "페이지 만들기/편집",
+	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "보호된 문서 편집하기",
 	"wikimediaapiportaloauth-ui-client-field-checks": "이용 약관:",
 	"wikimediaapiportaloauth-ui-new-client-title": "API 키 만들기",
 	"wikimediaapiportaloauth-ui-action-cancel": "취소",
