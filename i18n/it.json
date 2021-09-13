@@ -17,6 +17,7 @@
 	"wikimediaapiportaloauth-ui-client-field-account-type": "Tipo chiave:",
 	"wikimediaapiportaloauth-ui-client-field-permissions": "Permessi:",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Leggi pagine",
+	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "Modifica pagine protette",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Condizioni d'uso:",
 	"wikimediaapiportaloauth-ui-new-client-title": "Crea chiave API",
 	"wikimediaapiportaloauth-ui-action-cancel": "Annulla",

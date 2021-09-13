@@ -25,6 +25,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions": "Дозволи:",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Прочитати сторінки",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Створювати і редагувати сторінки",
+	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "Редагувати захищені сторінки",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Умови використання:",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Я погоджуюся з [[foundation:Special:MyLanguage/Terms_of_Use|умовами використання]] Вікімедіа. Я визнаю, що мій ключ API може бути відключений, якщо я порушу ці умови.",
 	"wikimediaapiportaloauth-ui-new-client-title": "Створити ключ API",

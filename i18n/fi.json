@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"MITO",
+			"Nike"
+		]
+	},
+	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "Muokata suojattuja sivuja",
+	"wikimediaapiportaloauth-email-not-confirmed": "Sähköpostiosoitetta ei ole varmistettu"
+}

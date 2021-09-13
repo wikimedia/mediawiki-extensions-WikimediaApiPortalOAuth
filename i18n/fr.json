@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DreZhsh",
 			"Gomoko",
 			"Thibaut120094",
 			"Verdy p",
@@ -28,6 +29,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions": "Droits :",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Lire les pages",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Créer et modifier les pages",
+	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "Modifier les pages protégées",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Conditions d’utilisation :",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "J’accepte les [[foundation:Special:MyLanguage/Terms_of_Use|conditions d’utilisation]] de Wikimedia. Je reconnais que ma clé API peut être désactivée si je viole ces conditions.",
 	"wikimediaapiportaloauth-ui-new-client-title": "Créer une clé d’API",

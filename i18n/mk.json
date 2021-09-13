@@ -25,6 +25,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions": "Дозволи:",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Читање на страници",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Создавање или уредување на страници",
+	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "Уредување на заштитени страници",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Услови на употреба:",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Се согласувам со [[foundation:Special:MyLanguage/Terms_of_Use|условите на употреба]] на Викимедииниот извршник. Свесен сум дека мојот приложнички клуч може да биде оневозможен ако ги нарушам овие услови.",
 	"wikimediaapiportaloauth-ui-new-client-title": "Создај приложнички клуч",
