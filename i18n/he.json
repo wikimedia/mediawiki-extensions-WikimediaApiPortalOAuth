@@ -25,6 +25,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions": "הרשאות:",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "קריאת דפים",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "קריאה ועריכה של דפים",
+	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "עריכת דפים מוגנים",
 	"wikimediaapiportaloauth-ui-client-field-checks": "תנאי השימוש:",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "אני מסכים ל[[foundation:Special:MyLanguage/Terms_of_Use|תנאי השימוש]] של ויקימדיה. אני מכיר בכך שמפתח ה־API שלי יכול לכבות אם אפר את התנאים האלה.",
 	"wikimediaapiportaloauth-ui-new-client-title": "יצירת מפתח API",
