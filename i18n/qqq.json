@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Amire80",
 			"Dejan Savuljesku",
 			"Robby",
@@ -34,7 +35,7 @@
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Label for the terms of services consent, containing the list to site's terms and services page",
 	"wikimediaapiportaloauth-ui-new-client-title": "Title label for the new client dialog",
 	"wikimediaapiportaloauth-ui-action-reset-secret": "Label for action button to reset client's secret",
-	"wikimediaapiportaloauth-ui-action-cancel": "Label for the action button to cancel the current action",
+	"wikimediaapiportaloauth-ui-action-cancel": "Label for the action button to cancel the current action\n\n{{Identical|Cancel}}",
 	"wikimediaapiportaloauth-ui-action-create": "Label for the action button to confirm creating the new client",
 	"wikimediaapiportaloauth-ui-registration-label": "Label for displaying client creation datetime in the client overview.\n$1 - formatted registration timestamp",
 	"wikimediaapiportaloauth-ui-error-must-be-set": "Generic 'field required' error",
