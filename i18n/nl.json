@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Romaine"
+		]
+	},
+	"wikimediaapiportaloauth-ui-client-action-view-details": "Details bekijken",
+	"wikimediaapiportaloauth-ui-client-action-disable": "Uitschakelen",
+	"wikimediaapiportaloauth-ui-client-field-name": "App-naam:",
+	"wikimediaapiportaloauth-ui-client-field-name-help": "Dit wordt getoond aan gebruikers van uw app tijdens autorisatie.",
+	"wikimediaapiportaloauth-ui-client-field-desc": "App-beschrijving:",
+	"wikimediaapiportaloauth-ui-client-field-desc-help": "Deel een paar details over uw app om te helpen bij het goedkeuringsproces.",
+	"wikimediaapiportaloauth-ui-client-field-permissions": "Rechten:",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Pagina's bekijken",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Pagina's aanmaken en bewerken",
+	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "Beveiligde pagina's bewerken",
+	"wikimediaapiportaloauth-ui-client-field-checks": "Gebruiksvoorwaarden:",
+	"wikimediaapiportaloauth-ui-client-status-rejected": "Afgewezen",
+	"wikimediaapiportaloauth-ui-client-status-expired": "Verlopen",
+	"wikimediaapiportaloauth-ui-client-status-disabled": "Uitgeschakeld",
+	"wikimediaapiportaloauth-ui-client-status-approved": "Goedgekeurd"
+}
