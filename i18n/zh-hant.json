@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"Winston Sung"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "讓維基媒體 API 入口使用者能遠端建立與管理 OAuth 客戶端",
@@ -22,7 +23,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions": "權限：",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "唯讀",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "讀取/寫入",
-	"wikimediaapiportaloauth-ui-client-field-checks": "協議：",
+	"wikimediaapiportaloauth-ui-client-field-checks": "使用條款：",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "我同意維基媒體 API 的[[foundation:Special:MyLanguage/Terms_of_Use|使用條款]]。",
 	"wikimediaapiportaloauth-ui-new-client-title": "建立客戶端",
 	"wikimediaapiportaloauth-ui-action-reset-secret": "重新設定客戶端密鑰",
