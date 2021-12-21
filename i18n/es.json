@@ -3,7 +3,8 @@
 		"authors": [
 			"DannyS712",
 			"Fitoschido",
-			"Mpayansilva"
+			"Mpayansilva",
+			"DDPAT"
 		]
 	},
 	"appmanagement": "Claves de API",
@@ -15,7 +16,7 @@
 	"wikimediaapiportaloauth-ui-client-details-title": "Detalles de la clave",
 	"wikimediaapiportaloauth-ui-client-field-name": "Nombre de aplicación:",
 	"wikimediaapiportaloauth-ui-client-field-name-help": "Esto se muestra a los usuarios de la aplicación durante la autorización.",
-	"wikimediaapiportaloauth-ui-client-field-desc": "Descripción de la aplicación",
+	"wikimediaapiportaloauth-ui-client-field-desc": "Descripción de la aplicación:",
 	"wikimediaapiportaloauth-ui-client-field-client-key": "Id. de cliente:",
 	"wikimediaapiportaloauth-ui-client-field-account-type": "Tipo de clave:",
 	"wikimediaapiportaloauth-ui-client-field-account-type-developer": "Cuenta de desarrollo",
@@ -33,9 +34,9 @@
 	"wikimediaapiportaloauth-ui-error-consumer-exists": "Ya se registró un cliente con este nombre",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "No se puede recuperar la ficha de acceso",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Falló la solicitud del cliente.",
-	"wikimediaapiportaloauth-ui-field-secret": "Secreto del cliente",
+	"wikimediaapiportaloauth-ui-field-secret": "Secreto del cliente:",
 	"wikimediaapiportaloauth-ui-action-done": "Hecho",
-	"wikimediaapiportaloauth-ui-field-access-token": "Ficha de acceso",
+	"wikimediaapiportaloauth-ui-field-access-token": "Ficha de acceso:",
 	"wikimediaapiportaloauth-ui-client-created": "Se creó el cliente correctamente.",
 	"wikimediaapiportaloauth-ui-client-status-proposed": "Aprobación pendiente",
 	"wikimediaapiportaloauth-ui-client-status-rejected": "Rechazado",
