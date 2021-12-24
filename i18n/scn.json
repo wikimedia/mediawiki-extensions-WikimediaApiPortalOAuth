@@ -8,9 +8,11 @@
 	"wikimediaapiportaloauth-api-error-invalid-action": "L'azzioni '$1' nun è vàlidda",
 	"wikimediaapiportaloauth-ui-client-action-view-details": "Talìa li dittagghî",
 	"wikimediaapiportaloauth-ui-client-details-title": "Dittagghî chavi",
+	"wikimediaapiportaloauth-ui-client-field-callback-uri": "URI di rimannu:",
 	"wikimediaapiportaloauth-ui-client-field-account-type": "Tipu chiavi:",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Leggi pàggini",
 	"wikimediaapiportaloauth-ui-action-cancel": "Annulla",
+	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "URI di rimannu nun vàlidu",
 	"wikimediaapiportaloauth-ui-action-done": "Fattu",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Statu: $1"
 }
