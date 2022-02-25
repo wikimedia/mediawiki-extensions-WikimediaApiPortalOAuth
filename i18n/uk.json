@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"DDPAT"
+			"DDPAT",
+			"Ice bulldog"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "Дозволяє користувачам порталу API Вікімедіа віддалено створювати та керувати клієнтами OAuth",
