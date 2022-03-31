@@ -4,5 +4,6 @@
 			"Eleassar"
 		]
 	},
-	"wikimediaapiportaloauth-desc": "Uporabnikom API portala fundacije Wikimedia omogoča ustvarjanje in upravljanje odjemalcev OAuth na daljavo"
+	"wikimediaapiportaloauth-desc": "Uporabnikom API portala fundacije Wikimedia omogoča ustvarjanje in upravljanje odjemalcev OAuth na daljavo",
+	"wikimediaapiportaloauth-ui-action-cancel": "Prekliči"
 }
