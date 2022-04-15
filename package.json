@@ -1,4 +1,5 @@
 {
+	"name": "WikimediaApiPortalOAuth",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
