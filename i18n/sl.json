@@ -5,5 +5,6 @@
 		]
 	},
 	"wikimediaapiportaloauth-desc": "Uporabnikom API portala fundacije Wikimedia omogoča ustvarjanje in upravljanje odjemalcev OAuth na daljavo",
-	"wikimediaapiportaloauth-ui-action-cancel": "Prekliči"
+	"wikimediaapiportaloauth-ui-action-cancel": "Prekliči",
+	"wikimediaapiportaloauth-ui-action-done": "Končano"
 }
