@@ -21,7 +21,7 @@
 	"wikimediaapiportaloauth-ui-client-field-desc": "Description de l’application :",
 	"wikimediaapiportaloauth-ui-client-field-desc-help": "Pour aider le processus d’approbation, veuillez partager quelques détails concernant votre candidature.",
 	"wikimediaapiportaloauth-ui-client-field-callback-uri": "URI de redirection :",
-	"wikimediaapiportaloauth-ui-client-field-client-key": "ID du client :",
+	"wikimediaapiportaloauth-ui-client-field-client-key": "Identifiant du client :",
 	"wikimediaapiportaloauth-ui-client-field-account-type": "Type de clé :",
 	"wikimediaapiportaloauth-ui-client-field-account-type-developer": "Application côté serveur (sites web traditionnels et applications serveur web)",
 	"wikimediaapiportaloauth-ui-client-field-account-type-mobile": "Application côté client ou installée (mobile, bureau et applications mono-page)",
