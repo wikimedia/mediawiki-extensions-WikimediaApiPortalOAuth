@@ -19,6 +19,7 @@
 	"wikimediaapiportaloauth-ui-client-field-checks": "Uslovi korišćenja:",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Slažem se s [[foundation:Special:MyLanguage/Terms_of_Use|uslovima korištenja]] Wikimedijinog izvršnika. Prihvaćam da moj priložnički ključ može biti onemogućen ako prekršim ove uslove.",
 	"wikimediaapiportaloauth-ui-new-client-title": "Napravi priložnički ključ",
+	"wikimediaapiportaloauth-ui-action-reset-secret": "Poništi tajnu",
 	"wikimediaapiportaloauth-ui-action-cancel": "Otkaži",
 	"wikimediaapiportaloauth-ui-action-create": "Napravi",
 	"wikimediaapiportaloauth-ui-registration-label": "Napravljeno $1",
