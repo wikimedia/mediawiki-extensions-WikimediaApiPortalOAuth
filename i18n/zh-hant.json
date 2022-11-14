@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Kly",
+			"Willy1018",
 			"Winston Sung"
 		]
 	},
@@ -22,7 +23,7 @@
 	"wikimediaapiportaloauth-ui-client-field-account-type-bot": "API 權杖：呼叫帶有與您個人維基媒體帳號綁定之個人權杖的 API。",
 	"wikimediaapiportaloauth-ui-client-field-permissions": "權限：",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "唯讀",
-	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "讀取/寫入",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "建立和編輯頁面",
 	"wikimediaapiportaloauth-ui-client-field-checks": "使用條款：",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "我同意維基媒體 API 的[[foundation:Special:MyLanguage/Terms_of_Use|使用條款]]。",
 	"wikimediaapiportaloauth-ui-new-client-title": "建立客戶端",
