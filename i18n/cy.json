@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Afalau",
 			"Robin Owain"
 		]
 	},
@@ -8,7 +9,7 @@
 	"wikimediaapiportaloauth-ui-client-action-view-details": "Gweld y manylion",
 	"wikimediaapiportaloauth-ui-client-action-disable": "Analluogi",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Darllen yn unig",
-	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Darllen/sgwennu",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Creu a golygu tudalennau",
 	"wikimediaapiportaloauth-ui-registration-label": "Creewyd $1",
 	"wikimediaapiportaloauth-ui-error-must-be-set": "Rhaid gosod y maes hwn",
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "Ailosod cudd",
