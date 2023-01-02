@@ -3,7 +3,8 @@
 		"authors": [
 			"DannyS712",
 			"Sabelöga",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Yupik"
 		]
 	},
 	"appmanagement": "API-nycklar",
@@ -21,6 +22,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions": "Behörigheter",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Skrivskyddad",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Läs/skriva",
+	"wikimediaapiportaloauth-ui-client-field-checks": "Användarvillkor:",
 	"wikimediaapiportaloauth-ui-new-client-title": "Skapa app",
 	"wikimediaapiportaloauth-ui-action-cancel": "Avbryt",
 	"wikimediaapiportaloauth-ui-action-create": "Skapa",
