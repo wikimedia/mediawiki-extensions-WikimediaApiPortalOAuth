@@ -6,6 +6,7 @@
 	},
 	"wikimediaapiportaloauth-desc": "Uporabnikom API portala Fundacije Wikimedia omogoča ustvarjanje in upravljanje odjemalcev OAuth na daljavo",
 	"wikimediaapiportaloauth-ui-client-details-title": "Podrobnosti ključa",
+	"wikimediaapiportaloauth-ui-client-field-desc": "Opis aplikacije:",
 	"wikimediaapiportaloauth-ui-client-field-callback-uri": "Preusmeritveni URI:",
 	"wikimediaapiportaloauth-ui-client-field-account-type": "Vrsta ključa:",
 	"wikimediaapiportaloauth-ui-new-client-title": "Ustvari API-ključ",
