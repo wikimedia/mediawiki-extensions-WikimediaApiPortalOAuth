@@ -14,5 +14,6 @@
 	"wikimediaapiportaloauth-ui-action-done": "Končano",
 	"wikimediaapiportaloauth-ui-client-created": "API-ključ ustvarjen",
 	"wikimediaapiportaloauth-ui-client-status-disabled": "Onemogočeno",
+	"wikimediaapiportaloauth-ui-client-status-approved": "Odobren",
 	"wikimediaapiportaloauth-ui-action-new-client": "Ustvari ključ"
 }
