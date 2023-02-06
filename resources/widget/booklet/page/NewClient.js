@@ -226,7 +226,7 @@
 			wiki: '*',
 			owner_only: this.inputs.type.getValue() === 'bot',
 			callback_url: this.inputs.callbackURI.getValue(),
-			callback_is_prefix: true,
+			callback_is_prefix: false,
 			email: mw.apiportal.util.userEmail,
 			is_confidential: this.inputs.type.getValue() !== 'mobile',
 			grant_types: this.getGrantTypes().join( '|' ),
