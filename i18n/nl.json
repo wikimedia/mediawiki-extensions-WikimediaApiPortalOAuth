@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mainframe98",
 			"Romaine",
 			"Rots61"
 		]
@@ -17,6 +18,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "Beveiligde pagina's bewerken",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Gebruiksvoorwaarden:",
 	"wikimediaapiportaloauth-ui-action-cancel": "Annuleren",
+	"wikimediaapiportaloauth-ui-action-done": "Klaar",
 	"wikimediaapiportaloauth-ui-client-status-rejected": "Afgewezen",
 	"wikimediaapiportaloauth-ui-client-status-expired": "Verlopen",
 	"wikimediaapiportaloauth-ui-client-status-disabled": "Uitgeschakeld",
