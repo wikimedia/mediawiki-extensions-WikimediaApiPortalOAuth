@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kimberli Mäkäräinen (WMNO)",
 			"Yupik"
 		]
 	},
-	"wikimediaapiportaloauth-ui-client-field-checks": "Geavahaneavttut:"
+	"wikimediaapiportaloauth-ui-client-field-checks": "Geavahaneavttut:",
+	"wikimediaapiportaloauth-ui-action-cancel": "Šluhtte"
 }
