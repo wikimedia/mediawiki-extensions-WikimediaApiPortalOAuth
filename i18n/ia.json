@@ -15,7 +15,7 @@
 	"wikimediaapiportaloauth-ui-client-field-name": "Nomine del application:",
 	"wikimediaapiportaloauth-ui-client-field-name-help": "Isto es monstrate al usatores de tu application durante le autorisation.",
 	"wikimediaapiportaloauth-ui-client-field-desc": "Description del application:",
-	"wikimediaapiportaloauth-ui-client-field-desc-help": "Pro adjutar con le processo de approbation, condivide alcun detalios super tu application.",
+	"wikimediaapiportaloauth-ui-client-field-desc-help": "Pro adjutar con le processo de approbation, condivide alcun detalios sur tu application.",
 	"wikimediaapiportaloauth-ui-client-field-callback-uri": "URI de redirection:",
 	"wikimediaapiportaloauth-ui-client-field-client-key": "ID del cliente:",
 	"wikimediaapiportaloauth-ui-client-field-account-type": "Typo de clave:",
