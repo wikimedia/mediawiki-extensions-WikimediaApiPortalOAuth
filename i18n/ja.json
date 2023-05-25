@@ -1,6 +1,10 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Shirayuki"
+		]
 	},
+	"action-wikimediaapiportaloauth-manage-oauth": "OAuth クライアントの管理",
+	"right-wikimediaapiportaloauth-manage-oauth": "OAuth クライアントを管理",
 	"wikimediaapiportaloauth-ui-client-status-disabled": "無効"
 }
