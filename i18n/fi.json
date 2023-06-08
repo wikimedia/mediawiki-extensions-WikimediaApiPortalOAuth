@@ -3,10 +3,13 @@
 		"authors": [
 			"MITO",
 			"Nike",
+			"Pyscowicz",
 			"Yupik"
 		]
 	},
 	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "Muokata suojattuja sivuja",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Käyttöehdot:",
-	"wikimediaapiportaloauth-email-not-confirmed": "Sähköpostiosoitetta ei ole varmistettu"
+	"wikimediaapiportaloauth-ui-action-cancel": "Peruuta",
+	"wikimediaapiportaloauth-ui-action-new-client": "Luo avain",
+	"wikimediaapiportaloauth-email-not-confirmed": "Ennen API-avaimen luomista, vahvista sähköpostiosoitteesi [[Special:Preferences|käyttäjäasetuksissa]]."
 }
