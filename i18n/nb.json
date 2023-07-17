@@ -15,6 +15,7 @@
 	"wikimediaapiportaloauth-ui-client-field-name": "Appnavn:",
 	"wikimediaapiportaloauth-ui-client-field-name-help": "Dette vises til brukerne av appen under autorisering.",
 	"wikimediaapiportaloauth-ui-client-field-desc": "Appbeskrivelse:",
+	"wikimediaapiportaloauth-ui-client-field-desc-help": "Del noen detaljer om appen din for å hjelpe til med godkjenningsprosessen.",
 	"wikimediaapiportaloauth-ui-client-field-callback-uri": "Omdirigerings-URI:",
 	"wikimediaapiportaloauth-ui-client-field-client-key": "Klient-ID:",
 	"wikimediaapiportaloauth-ui-client-field-account-type": "Nøkkeltype:",
