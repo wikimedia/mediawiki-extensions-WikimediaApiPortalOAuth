@@ -56,5 +56,5 @@
 	"wikimediaapiportaloauth-ui-action-new-client": "Create key",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Status: $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "Before you create an API key, please confirm your email address through your [[Special:Preferences|user preferences]].",
-	"wikimediaapiportaloauth-page-introduction": "Create an API key to start building free knowledge apps. Learn about [[Documentation/Getting started/Authentication|API authentication]] and [[Documentation/Getting started/Rate limits|rate limits]]."
+	"wikimediaapiportaloauth-page-introduction": "Create an API key to start building free knowledge apps. Learn about [[Authentication|API authentication]] and [[Rate limits|rate limits]]."
 }
