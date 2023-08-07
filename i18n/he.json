@@ -54,5 +54,5 @@
 	"wikimediaapiportaloauth-ui-action-new-client": "יצירת מפתח",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "מצב: $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "לפני יצירת מפתח API, נא לאמת את כתובת הדואר האלקטרוני שלך דרך [[Special:Preferences|העדפות משתמש]].",
-	"wikimediaapiportaloauth-page-introduction": "{{GENDER:|צור|צרי}} מפתח API כדי להתחיל לבנות יישומי ידע חופשי. מידע נוסף על [[Documentation/Getting started/Authentication|הזדהות ב־API]] ו[[Documentation/Getting started/Rate limits|הגבלות קצב]]."
+	"wikimediaapiportaloauth-page-introduction": "{{GENDER:|צור|צרי}} מפתח API כדי להתחיל לבנות יישומי ידע חופשי. מידע נוסף על [[Documentation/Getting started/Authentication|הזדהות ב־API]] ועל [[Documentation/Getting started/Rate limits|מגבלות קצב]]."
 }
