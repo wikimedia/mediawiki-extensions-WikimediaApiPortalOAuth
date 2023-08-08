@@ -52,5 +52,5 @@
 	"wikimediaapiportaloauth-ui-action-new-client": "Opprett nøkkel",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Status: $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "Før du kan opprette en API-nøkkel må du bekrefte epostadressa di i [[Special:Preferences|innstillingene]].",
-	"wikimediaapiportaloauth-page-introduction": "Opprett en API-nøkkel for å begynne å bygge apper for fri kunnskap. Lær om [[Documentation/Getting started/Authentication|API-autentisering]] og [[Documentation/Getting started/Rate limits|frekvensbegrensninger]]."
+	"wikimediaapiportaloauth-page-introduction": "Opprett en API-nøkkel for å begynne å bygge apper for fri kunnskap. Lær om [[Authentication|API-autentisering]] og [[Rate limits|frekvensbegrensninger]]."
 }

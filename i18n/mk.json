@@ -54,5 +54,5 @@
 	"wikimediaapiportaloauth-ui-action-new-client": "Создај клуч",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Состојба: $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "Пред да можете да го направите приложничкиот клиент, потврдете ја вашата е-пошта преку [[Special:Preferences|корисничките нагодувања]].",
-	"wikimediaapiportaloauth-page-introduction": "Создајте приложнички клуч за да почнете со изработка на прилози за слободно знаење. Дознајте за [[Documentation/Getting started/Authentication|заверката на приложници]] и [[Documentation/Getting started/Rate limits|ограничувањата]]."
+	"wikimediaapiportaloauth-page-introduction": "Создајте приложнички клуч за да почнете со изработка на прилози за слободно знаење. Дознајте за [[Authentication|заверката на приложници]] и [[Rate limits|ограничувањата]]."
 }

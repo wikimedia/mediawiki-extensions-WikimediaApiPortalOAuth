@@ -40,5 +40,5 @@
 	"wikimediaapiportaloauth-ui-action-new-client": "Napravi ključ",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Status: $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "Prije nego što možete napraviti priložnički klijent, potvrdite svoju adresu e-pošte putem [[Special:Preferences|korisničkih postavki]].",
-	"wikimediaapiportaloauth-page-introduction": "Napravite priložnički ključ da biste počeli graditi priloge slodobnog znanja. Saznajte više o [[Documentation/Getting started/Authentication|autentikaciji priložnikâ]] i [[Documentation/Getting started/Rate limits|ograničenjima brzine]]."
+	"wikimediaapiportaloauth-page-introduction": "Napravite priložnički ključ da biste počeli graditi priloge slodobnog znanja. Saznajte više o [[Authentication|autentikaciji priložnikâ]] i [[Rate limits|ograničenjima brzine]]."
 }

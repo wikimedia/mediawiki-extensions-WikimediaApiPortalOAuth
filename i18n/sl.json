@@ -54,5 +54,5 @@
 	"wikimediaapiportaloauth-ui-action-new-client": "Ustvari ključ",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Stanje: $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "Preden ustvarite API-ključ, potrdite svoj e-poštni naslov v [[Special:Preferences|uporabniških nastavitvah]].",
-	"wikimediaapiportaloauth-page-introduction": "Ustvarite ključ API, da začnete graditi brezplačne aplikacije znanja. Preberite več o [[Documentation/Getting started/Authentication|API-avtentikaciji]] in [[Documentation/Getting started/Rate limits|omejitvah hitrosti]]."
+	"wikimediaapiportaloauth-page-introduction": "Ustvarite ključ API, da začnete graditi brezplačne aplikacije znanja. Preberite več o [[Authentication|API-avtentikaciji]] in [[Rate limits|omejitvah hitrosti]]."
 }

@@ -55,5 +55,5 @@
 	"wikimediaapiportaloauth-ui-action-new-client": "Створити ключ",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Статус: $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "Перш ніж створити ключ API, будь ласка, підтвердьте свою адресу електронної пошти у [[Special:Preferences|налаштуваннях користувача]].",
-	"wikimediaapiportaloauth-page-introduction": "Створити ключ API, щоб розпочати створення безкоштовних програм знань. Дізнайтеся про [[Documentation/Getting started/Authentication|автентифікацію API]] і [[Documentation/Getting started/Rate limits|обмеження швидкості]]."
+	"wikimediaapiportaloauth-page-introduction": "Створити ключ API, щоб розпочати створення безкоштовних програм знань. Дізнайтеся про [[Authentication|автентифікацію API]] і [[Rate limits|обмеження швидкості]]."
 }

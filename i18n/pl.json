@@ -53,5 +53,5 @@
 	"wikimediaapiportaloauth-ui-action-new-client": "Stwórz klucz",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Status: $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "Zanim stworzysz klucz API, prosimy o potwierdzenie adresu e-mail w [[Special:Preferences|preferencjach]].",
-	"wikimediaapiportaloauth-page-introduction": "Stwórz klucz API, aby zacząć budować aplikacje korzystające z darmowych baz wiedzy. Przeczytaj o [[Documentation/Getting started/Authentication|uwierzytelnianiu przez API]] oraz [[Documentation/Getting started/Rate limits|limitach przepustowości]]."
+	"wikimediaapiportaloauth-page-introduction": "Stwórz klucz API, aby zacząć budować aplikacje korzystające z darmowych baz wiedzy. Przeczytaj o [[Authentication|uwierzytelnianiu przez API]] oraz [[Rate limits|limitach przepustowości]]."
 }

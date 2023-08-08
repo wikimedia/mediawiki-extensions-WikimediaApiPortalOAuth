@@ -58,5 +58,5 @@
 	"wikimediaapiportaloauth-ui-action-new-client": "Créer une clé",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "État : $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "Avant de créer votre clé d’API, veuillez confirmer votre adresse de messagerie dans vos [[Special:Preferences|préférences utilisateur]].",
-	"wikimediaapiportaloauth-page-introduction": "Créer une clé API pour démarrer la construction d’applications de libre connaissance. En savoir plus sur [[Documentation/Getting started/Authentication|l’authentification de l’API]] et [[Documentation/Getting started/Rate limits|les limites de taux]]."
+	"wikimediaapiportaloauth-page-introduction": "Créer une clé API pour démarrer la construction d’applications de libre connaissance. En savoir plus sur [[Authentication|l’authentification de l’API]] et [[Rate limits|les limites de taux]]."
 }

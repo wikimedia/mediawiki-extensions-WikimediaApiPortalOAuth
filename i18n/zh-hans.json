@@ -53,5 +53,5 @@
 	"wikimediaapiportaloauth-ui-action-new-client": "创建密钥",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "状态：$1",
 	"wikimediaapiportaloauth-email-not-confirmed": "在您创建API密钥之前，请通过您的[[Special:Preferences|用户参数设置]]确认您的电子邮件地址。",
-	"wikimediaapiportaloauth-page-introduction": "创建API密钥以开始构建自由的知识应用。了解 [[Documentation/Getting started/Authentication|API身份验证]]和[[Documentation/Getting started/Rate limits|速率限制]]。"
+	"wikimediaapiportaloauth-page-introduction": "创建API密钥以开始构建自由的知识应用。了解 [[Authentication|API身份验证]]和[[Rate limits|速率限制]]。"
 }

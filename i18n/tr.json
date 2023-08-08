@@ -53,5 +53,5 @@
 	"wikimediaapiportaloauth-ui-action-new-client": "Anahtar oluştur",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Durum: $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "Bir API anahtarı oluşturmadan önce, lütfen e-posta adresinizi [[Special:Preferences|kullanıcı tercihlerinden]] onaylayın.",
-	"wikimediaapiportaloauth-page-introduction": "Ücretsiz bilgi uygulamaları oluşturmaya başlamak için bir API anahtarı oluşturun. [[Documentation/Getting started/Authentication|API kimlik doğrulaması]] ve [[Documentation/Getting started/Rate limits|hız sınırları]] hakkında bilgi edinin."
+	"wikimediaapiportaloauth-page-introduction": "Ücretsiz bilgi uygulamaları oluşturmaya başlamak için bir API anahtarı oluşturun. [[Authentication|API kimlik doğrulaması]] ve [[Rate limits|hız sınırları]] hakkında bilgi edinin."
 }
