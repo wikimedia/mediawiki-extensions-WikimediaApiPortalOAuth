@@ -35,7 +35,7 @@
 	"wikimediaapiportaloauth-ui-error-must-be-set": "这个字段必须设置",
 	"wikimediaapiportaloauth-ui-error-consumer-exists": "具有此名称的客户端已注册",
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "重定向URI无效",
-	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "成功授权后，用户将被重定向到此路径。[[Documentation/Getting started/Authentication#Choosing_a_redirect_URI|了解更多。]]",
+	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "成功授权后，用户将被重定向到此路径。[[Authentication#Choosing_a_redirect_URI|了解更多。]]",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "无法检索访问令牌",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "请求失败。请稍后再试。",
 	"wikimediaapiportaloauth-ui-field-secret": "客户端密码：",

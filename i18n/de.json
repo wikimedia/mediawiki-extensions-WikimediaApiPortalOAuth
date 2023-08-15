@@ -37,7 +37,7 @@
 	"wikimediaapiportaloauth-ui-error-must-be-set": "Dieses Feld muss gesetzt werden",
 	"wikimediaapiportaloauth-ui-error-consumer-exists": "Ein Client mit diesem Namen ist bereits registriert",
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "Ungültige Weiterleitungs-URI",
-	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Benutzer werden nach erfolgreicher Autorisierung auf diesen Pfad umgeleitet. [[Documentation/Getting started/Authentication#Choosing_a_redirect_URI|Mehr erfahren]]",
+	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Benutzer werden nach erfolgreicher Autorisierung auf diesen Pfad umgeleitet. [[Authentication#Choosing_a_redirect_URI|Mehr erfahren]]",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "Zugriffstoken kann nicht abgerufen werden",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Anfrage fehlgeschlagen. Bitte versuche es später noch einmal.",
 	"wikimediaapiportaloauth-ui-field-secret": "Client-Geheimnis:",

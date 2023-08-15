@@ -36,7 +36,7 @@
 	"wikimediaapiportaloauth-ui-error-must-be-set": "Ова поле мора да биде укажано",
 	"wikimediaapiportaloauth-ui-error-consumer-exists": "Веќе има клиент со тоа име",
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "Неважечки URI за пренасочување",
-	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Корисниците се пренасочуваат кон оваа патека откако успешно ќе ја поминат заверката. [[Documentation/Getting started/Authentication#Choosing_a_redirect_URI|Дознајте повеќе.]]",
+	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Корисниците се пренасочуваат кон оваа патека откако успешно ќе ја поминат заверката. [[Authentication#Choosing_a_redirect_URI|Дознајте повеќе.]]",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "Не можев да ја добијам пристапната шифра",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Барањето не успеа. Обидете се повторно.",
 	"wikimediaapiportaloauth-ui-field-secret": "Клиентска тајна:",

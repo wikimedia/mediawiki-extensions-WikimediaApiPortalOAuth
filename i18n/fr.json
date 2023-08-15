@@ -40,7 +40,7 @@
 	"wikimediaapiportaloauth-ui-error-must-be-set": "Le champ doit être renseigné",
 	"wikimediaapiportaloauth-ui-error-consumer-exists": "Un client avec ce nom est déjà enregistré",
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "URL de redirection non valide",
-	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Les utilisateurs sont redirigés vers ce chemin après une autorisation réussie. [[Documentation/Getting started/Authentication#Choosing_a_redirect_URI|En savoir plus.]]",
+	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Les utilisateurs sont redirigés vers ce chemin après une autorisation réussie. [[Authentication#Choosing_a_redirect_URI|En savoir plus.]]",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "Impossible de récupérer le jeton d’accès",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Échec de la demande. Veuillez réessayer ultérieurement.",
 	"wikimediaapiportaloauth-ui-field-secret": "Secret du client :",
