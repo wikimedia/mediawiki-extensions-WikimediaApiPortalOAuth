@@ -36,7 +36,7 @@
 	"wikimediaapiportaloauth-ui-error-must-be-set": "Iste campo debe esser definite",
 	"wikimediaapiportaloauth-ui-error-consumer-exists": "Un cliente con iste nomine es ja registrate",
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "URL de redirection non valide",
-	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Usatores es redirigite a iste cammino post le successo de autorisation. [[Authentication#Choosing_a_redirect_URI|Apprende plus.]]",
+	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Usatores es redirigite a iste percurso post le successo de autorisation. [[Authentication#Choosing_a_redirect_URI|Apprende plus.]]",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "Non pote recuperar le token de accesso",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Requesta fallite. Per favor reproba plus tarde.",
 	"wikimediaapiportaloauth-ui-field-secret": "Secreto del cliente:",
