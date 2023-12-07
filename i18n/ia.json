@@ -54,5 +54,5 @@
 	"wikimediaapiportaloauth-ui-action-new-client": "Crear clave",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Stato: $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "Ante que tu crea un clave del API, per favor confirma tu adresse de e-mail per tu [[Special:Preferences|preferentias de usator]].",
-	"wikimediaapiportaloauth-page-introduction": "Crea un clave del API pro comenciar a construer applicationes de cognoscentia gratuite. Apprende sur le [[Authentication|authentication del API]] e le [[Rate limits|limites de frequentia]]."
+	"wikimediaapiportaloauth-page-introduction": "Crea un clave del API pro comenciar a construer applicationes de cognoscentia libere. Apprende sur le [[Authentication|authentication del API]] e le [[Rate limits|limites de frequentia]]."
 }
