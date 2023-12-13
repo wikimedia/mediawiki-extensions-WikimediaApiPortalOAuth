@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"FF-11",
-			"Umherirrender"
+			"Umherirrender",
+			"McDutchie"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "Ermöglicht es Benutzern des Wikimedia API-Portals, OAuth-Clients per Fernzugriff zu erstellen und zu verwalten",
@@ -55,5 +56,5 @@
 	"wikimediaapiportaloauth-ui-action-new-client": "Schlüssel erstellen",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Status: $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "Bevor du einen API-Schlüssel erstellst, bestätige bitte deine E-Mail-Adresse über deine [[Special:Preferences|Benutzereinstellungen]].",
-	"wikimediaapiportaloauth-page-introduction": "Erstelle einen API-Schlüssel, um mit der Erstellung kostenloser Wissens-Apps zu beginnen. Erfahre mehr über [[Authentication|API-Authentifizierung]] und [[Rate limits|Limits]]."
+	"wikimediaapiportaloauth-page-introduction": "Erstelle einen API-Schlüssel, um mit der Erstellung von Apps für freies Wissen zu beginnen. Erfahre mehr über [[Authentication|API-Authentifizierung]] und [[Rate limits|Limits]]."
 }
