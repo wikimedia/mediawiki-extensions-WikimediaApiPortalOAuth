@@ -3,11 +3,12 @@
 		"authors": [
 			"Kly",
 			"Winston Sung",
-			"Willy1018"
+			"Willy1018",
+			"SunAfterRain"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "讓維基媒體 API 入口使用者能遠端建立與管理 OAuth 客戶端",
-	"appmanagement": "我的客戶端",
+	"appmanagement": "API金鑰",
 	"action-wikimediaapiportaloauth-manage-oauth": "管理 OAuth 客戶端",
 	"right-wikimediaapiportaloauth-manage-oauth": "管理 OAuth 客戶端",
 	"wikimediaapiportaloauth-api-error-invalid-action": "操作「$1」無效",
