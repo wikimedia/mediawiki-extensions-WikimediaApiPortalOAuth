@@ -2,8 +2,8 @@
 
 namespace MediaWiki\Extension\WikimediaApiPortalOAuth\Special;
 
-use Html;
-use SpecialPage;
+use MediaWiki\Html\Html;
+use MediaWiki\SpecialPage\SpecialPage;
 
 /**
  * Class AppManagement
