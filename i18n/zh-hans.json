@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Anterdc99",
 			"Shizhao"
 		]
 	},
@@ -25,6 +26,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions": "权限：",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "阅读页面",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "创建和编辑页面",
+	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "编辑受保护的页面",
 	"wikimediaapiportaloauth-ui-client-field-checks": "使用条款：",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "我同意维基媒体[[foundation:Special:MyLanguage/Terms_of_Use|使用条款]]。我承诺如果我违反这些条款，我的API密钥可能被禁用。",
 	"wikimediaapiportaloauth-ui-new-client-title": "创建API密钥",
