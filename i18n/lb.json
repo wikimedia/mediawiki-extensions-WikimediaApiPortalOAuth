@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"wikimediaapiportaloauth-ui-client-action-view-details": "Detailer weisen",
@@ -11,6 +12,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Säite liesen",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Benotzungs-Bedingungen:",
 	"wikimediaapiportaloauth-ui-action-reset-secret": "Secret zrécksetzen",
+	"wikimediaapiportaloauth-ui-action-cancel": "Ofbriechen",
 	"wikimediaapiportaloauth-ui-error-consumer-exists": "Client mat dësem Numm ass scho registréiert",
 	"wikimediaapiportaloauth-ui-action-done": "Fäerdeg",
 	"wikimediaapiportaloauth-ui-client-status-disabled": "Desaktivéiert",
