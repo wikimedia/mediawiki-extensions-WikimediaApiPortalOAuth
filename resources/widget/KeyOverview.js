@@ -43,7 +43,7 @@
 
 	KeyOverview.prototype.loadClients = function ( data, initial ) {
 		data = data || {};
-		data = $.extend( {
+		data = Object.assign( {
 			limit: this.pageLimit,
 			/* eslint-disable camelcase */
 			oauth_version: '2',
