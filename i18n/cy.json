@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Robin Owain",
-			"Afalau"
+			"Afalau",
+			"Ceirios"
 		]
 	},
 	"wikimediaapiportaloauth-api-error-invalid-action": "Mae gweithred '$1' yn annilys",
