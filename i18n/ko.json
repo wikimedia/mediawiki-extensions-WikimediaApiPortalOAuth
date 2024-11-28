@@ -6,6 +6,7 @@
 	},
 	"appmanagement": "API 키",
 	"right-wikimediaapiportaloauth-manage-oauth": "OAuth 클라이언트 관리",
+	"wikimediaapiportaloauth-ui-client-action-disable": "비활성화",
 	"wikimediaapiportaloauth-ui-client-details-title": "키 상세 정보",
 	"wikimediaapiportaloauth-ui-client-field-name": "앱 이름:",
 	"wikimediaapiportaloauth-ui-client-field-desc": "앱 설명:",
