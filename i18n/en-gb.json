@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Reedy"
+			"Reedy",
+			"A smart kitten"
 		]
 	},
 	"wikimediaapiportaloauth-ui-client-field-name-help": "This is displayed to users of your app during authorisation.",
