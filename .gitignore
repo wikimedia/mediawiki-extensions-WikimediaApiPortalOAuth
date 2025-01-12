@@ -7,3 +7,4 @@
 /node_modules
 /.phan/data
 .eslintcache
+/.stylelintcache
