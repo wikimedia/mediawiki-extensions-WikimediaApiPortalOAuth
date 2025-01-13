@@ -6,5 +6,6 @@
 		]
 	},
 	"wikimediaapiportaloauth-ui-client-field-checks": "Geavahaneavttut:",
-	"wikimediaapiportaloauth-ui-action-cancel": "Gaskkalduhte"
+	"wikimediaapiportaloauth-ui-action-cancel": "Gaskkalduhte",
+	"wikimediaapiportaloauth-ui-client-status-disabled": "Váldojuvvon eret anus"
 }
