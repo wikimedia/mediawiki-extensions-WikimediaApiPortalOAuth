@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"محمد أحمد عبد الفتاح",
-			"Cigaryno"
+			"Cigaryno",
+			"Meno25"
 		]
 	},
+	"wikimediaapiportaloauth-desc": "يتيح لمستخدمي بوابة API الخاصة بـ Wikimedia إنشاء عملاء OAuth وإدارتهم عن بُعد",
 	"appmanagement": "مفاتيح API",
 	"action-wikimediaapiportaloauth-manage-oauth": "إدارة عملاء OAuth",
 	"right-wikimediaapiportaloauth-manage-oauth": "إدارة عملاء OAuth",
@@ -14,6 +16,14 @@
 	"wikimediaapiportaloauth-ui-client-details-title": "تفاصيل التطبيق",
 	"wikimediaapiportaloauth-ui-client-field-name": "اسم التطبيق:",
 	"wikimediaapiportaloauth-ui-client-field-name-help": "يتم عرض ذلك لمستخدمي التطبيق الخاص بك أثناء عملية الترخيص.",
+	"wikimediaapiportaloauth-ui-client-field-desc": "وصف التطبيق:",
+	"wikimediaapiportaloauth-ui-client-field-desc-help": "للمساعدة في عملية الموافقة، شارك بعض التفاصيل حول تطبيقك.",
+	"wikimediaapiportaloauth-ui-client-field-callback-uri": "إعادة توجيه URI:",
+	"wikimediaapiportaloauth-ui-client-field-client-key": "معرف العميل:",
+	"wikimediaapiportaloauth-ui-client-field-account-type": "نوع المفتاح:",
+	"wikimediaapiportaloauth-ui-client-field-account-type-developer": "تطبيق جانب الخادم (المواقع التقليدية وتطبيقات خادم الويب)",
+	"wikimediaapiportaloauth-ui-client-field-account-type-mobile": "تطبيق على جانب العميل أو تطبيق مثبت (تطبيقات الهاتف المحمول وسطح المكتب والصفحة الواحدة)",
+	"wikimediaapiportaloauth-ui-client-field-account-type-bot": "رمز واجهة برمجة التطبيقات الشخصي (للاستخدام الخاص بك فقط)",
 	"wikimediaapiportaloauth-ui-client-field-permissions": "الصلاحيات:",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "قراءة الصفحات",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "إنشاء وتعديل الصفحات.",
@@ -25,9 +35,14 @@
 	"wikimediaapiportaloauth-ui-action-create": "أنشئ",
 	"wikimediaapiportaloauth-ui-registration-label": "أنشئ $1",
 	"wikimediaapiportaloauth-ui-error-must-be-set": "يجب تعيين هذا الحقل",
+	"wikimediaapiportaloauth-ui-error-consumer-exists": "تم تسجيل العميل بهذا الاسم بالفعل",
+	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "عنوان إعادة التوجيه غير صالح",
+	"wikimediaapiportaloauth-ui-error-cannot-get-token": "لا يمكن استرداد رمز الوصول",
+	"wikimediaapiportaloauth-ui-error-request-client-fail": "فشل الطلب. يرجى المحاولة مرة أخرى لاحقًا.",
 	"wikimediaapiportaloauth-ui-field-secret": "سر العميل:",
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "إعادة ضبط السرية",
 	"wikimediaapiportaloauth-ui-action-done": "تم",
+	"wikimediaapiportaloauth-ui-client-secret-alert": "احفظ بيانات الاعتماد هذه بأمان. لن تتمكن من الوصول إليها مرة أخرى عبر بوابة API.",
 	"wikimediaapiportaloauth-ui-field-access-token": "رمز الوصول:",
 	"wikimediaapiportaloauth-ui-client-created": "تم إنشاء مفتاح API",
 	"wikimediaapiportaloauth-ui-client-status-proposed": "في انتظار القبول",
@@ -37,5 +52,7 @@
 	"wikimediaapiportaloauth-ui-client-status-disabled": "معطل",
 	"wikimediaapiportaloauth-ui-client-status-approved": "مقبول",
 	"wikimediaapiportaloauth-ui-action-new-client": "إنشاء مفتاح",
-	"wikimediaapiportaloauth-ui-client-status-wrapper": "الحالة: $1"
+	"wikimediaapiportaloauth-ui-client-status-wrapper": "الحالة: $1",
+	"wikimediaapiportaloauth-email-not-confirmed": "قبل إنشاء مفتاح API، يرجى تأكيد عنوان بريدك الإلكتروني من خلال [[Special:Preferences|تفضيلات المستخدم]].",
+	"wikimediaapiportaloauth-page-introduction": "أنشئ مفتاح API لبدء إنشاء تطبيقات المعرفة المجانية. تعرف على [[Authentication|مصادقة API]] و[[Rate limits|حدود المعدل]]."
 }
