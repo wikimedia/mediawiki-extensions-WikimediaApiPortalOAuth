@@ -72,10 +72,6 @@
 				{
 					data: 'write',
 					label: mw.message( 'wikimediaapiportaloauth-ui-client-field-permissions-read-write' ).text()
-				},
-				{
-					data: 'write-protected',
-					label: mw.message( 'wikimediaapiportaloauth-ui-client-field-permissions-write-protected' ).text()
 				}
 			]
 		} );
@@ -240,10 +236,6 @@
 
 		if ( this.inputs.permissions.getValue().includes( 'write' ) ) {
 			clientScopes.push( 'createeditmovepage' );
-		}
-
-		if ( this.inputs.permissions.getValue().includes( 'write-protected' ) ) {
-			clientScopes.push( 'editprotected' );
 		}
 
 		return clientScopes;
