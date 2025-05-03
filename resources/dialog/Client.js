@@ -9,7 +9,7 @@
 	 * @param {Object} cfg.client - Client.
 	 * @param {Object} cfg.booklet - Booklet.
 	 */
-	var Client = function ( cfg ) {
+	const Client = function ( cfg ) {
 		Client.super.call( this, cfg );
 
 		this.client = cfg.client || null;
@@ -52,15 +52,15 @@
 		data.title = this.booklet.getCurrentPage().getLabel();
 		return Client.super.prototype.getSetupProcess.call( this, data )
 			.next(
-				function () {
+				() => {
 					this.actions.setMode( this.booklet.getCurrentPageName() );
 					this.onPageSet( this.booklet.getCurrentPage() );
-				}.bind( this )
+				}
 			);
 	};
 
 	Client.prototype.setErrors = function ( errors ) {
-		var i;
+		let i;
 
 		this.clearErrors();
 		if ( !Array.isArray( errors ) ) {
@@ -81,7 +81,7 @@
 	};
 
 	Client.prototype.renderErrors = function () {
-		var i;
+		let i;
 
 		for ( i = 0; i < this.errors.length; i++ ) {
 			this.$errorArea.append( this.errors[ i ].$element );
@@ -90,7 +90,7 @@
 	};
 
 	Client.prototype.onPageSet = function ( page ) {
-		var abilities = page.getAbilities();
+		const abilities = page.getAbilities();
 		this.clearErrors();
 
 		if ( !( page instanceof mw.apiportal.booklet.page.Base ) ) {
@@ -115,39 +115,39 @@
 
 	Client.prototype.getActionProcess = function ( action ) {
 		if ( action === 'close' ) {
-			return new OO.ui.Process( function () {
+			return new OO.ui.Process( () => {
 				this.close( { update: this.updateFlag } );
-			}.bind( this ) );
+			} );
 		}
 
 		if ( action === 'reset' ) {
-			return new OO.ui.Process( function () {
+			return new OO.ui.Process( () => {
 				this.booklet.getPage( 'details' ).resetSecret()
-					.done( function ( data ) {
+					.done( ( data ) => {
 						this.booklet.setPage( 'details_reset' );
 						this.booklet.getPage( 'details_reset' ).setAuthenticationData( data );
 						this.actions.setMode( 'details_reset' );
-					}.bind( this ) )
-					.fail( function ( error ) {
+					} )
+					.fail( ( error ) => {
 						this.setErrors( error );
-					}.bind( this ) );
-			}.bind( this ) );
+					} );
+			} );
 		}
 
 		if ( action === 'create' ) {
-			return new OO.ui.Process( function () {
+			return new OO.ui.Process( () => {
 				this.booklet.getPage( 'new' ).createClient()
-					.done( function ( response ) {
+					.done( ( response ) => {
 						this.booklet.setPage( 'details_new' );
 						this.booklet.getPage( 'details_new' ).setClient( new mw.apiportal.ClientEntity( response ) );
 						this.booklet.getPage( 'details_new' ).setAuthenticationData( response );
 						this.updateFlag = true;
 						this.actions.setMode( 'details_new' );
-					}.bind( this ) )
-					.fail( function ( error ) {
+					} )
+					.fail( ( error ) => {
 						this.setErrors( error );
-					}.bind( this ) );
-			}.bind( this ) );
+					} );
+			} );
 		}
 
 		return Client.super.prototype.getActionProcess.call( this, action );

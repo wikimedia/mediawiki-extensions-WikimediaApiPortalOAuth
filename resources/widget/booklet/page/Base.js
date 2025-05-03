@@ -9,7 +9,7 @@
 	 * @param {Object} cfg - Config.
 	 * @param {Object} cfg.client - Client.
 	 */
-	var Base = function ( name, cfg ) {
+	const Base = function ( name, cfg ) {
 		Base.super.call( this, name, cfg );
 
 		this.client = cfg.client;

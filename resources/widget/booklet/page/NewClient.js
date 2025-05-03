@@ -8,8 +8,8 @@
 	 * @param {string} name - Unique symbolic name of page.
 	 * @param {Object} cfg - Config.
 	 */
-	var NewClient = function ( name, cfg ) {
-		var actionApi = new mw.ForeignApi( mw.apiportal.util.targetApiURL );
+	const NewClient = function ( name, cfg ) {
+		const actionApi = new mw.ForeignApi( mw.apiportal.util.targetApiURL );
 		this.restApi = new mw.ForeignRest( mw.apiportal.util.targetRestURL, actionApi );
 		NewClient.super.call( this, name, cfg );
 	};
@@ -21,7 +21,7 @@
 	};
 
 	NewClient.prototype.addLayouts = function () {
-		var name,
+		let name,
 			layouts = [],
 			layoutId;
 
@@ -147,7 +147,7 @@
 	};
 
 	NewClient.prototype.getInputValidity = function () {
-		var toCheck = Object.keys( this.inputs ),
+		const toCheck = Object.keys( this.inputs ),
 			deferred = $.Deferred();
 
 		this.doCheckValidity( toCheck, deferred );
@@ -156,7 +156,7 @@
 	};
 
 	NewClient.prototype.doCheckValidity = function ( inputs, dfd ) {
-		var currentKey,
+		let currentKey,
 			current;
 
 		if ( inputs.length === 0 ) {
@@ -167,38 +167,38 @@
 		current = this.inputs[ currentKey ];
 
 		if ( currentKey === 'checks' ) {
-			if ( current.getValue().indexOf( 'termsOfService' ) === -1 ) {
+			if ( !current.getValue().includes( 'termsOfService' ) ) {
 				this.showValidationErrorForLayout( currentKey );
 				dfd.reject();
 			}
 			this.doCheckValidity( inputs, dfd );
 		} else if ( typeof current.getValidity === 'function' ) {
-			current.getValidity().done( function () {
+			current.getValidity().done( () => {
 				this.doCheckValidity( inputs, dfd );
-			}.bind( this ) ).fail( function () {
+			} ).fail( () => {
 				this.showValidationErrorForLayout( currentKey );
 				dfd.reject();
-			}.bind( this ) );
+			} );
 		}
 
 		this.doCheckValidity( inputs, dfd );
 	};
 
 	NewClient.prototype.createClient = function () {
-		var dfd = $.Deferred(),
+		const dfd = $.Deferred(),
 			self = this;
 
-		this.getInputValidity().done( function () {
+		this.getInputValidity().done( () => {
 			// Not using .post since it only supports JSON, and OAuth REST API is not.
 			self.restApi.ajax( '/oauth2/client', {
 				type: 'POST',
 				data: self.getData()
 			} )
-				.then( function ( response ) {
+				.then( ( response ) => {
 					dfd.resolve( response );
 				} )
-				.catch( function ( error, detail ) {
-					var xhr = error === 'http' ? detail.xhr : undefined;
+				.catch( ( error, detail ) => {
+					const xhr = error === 'http' ? detail.xhr : undefined;
 					dfd.reject( mw.apiportal.util.getErrorTextFromXHR( xhr ) );
 				} );
 		} );
@@ -236,13 +236,13 @@
 	};
 
 	NewClient.prototype.getMappedScopes = function () {
-		var clientScopes = [ 'basic' ];
+		const clientScopes = [ 'basic' ];
 
-		if ( this.inputs.permissions.getValue().indexOf( 'write' ) !== -1 ) {
+		if ( this.inputs.permissions.getValue().includes( 'write' ) ) {
 			clientScopes.push( 'createeditmovepage' );
 		}
 
-		if ( this.inputs.permissions.getValue().indexOf( 'write-protected' ) !== -1 ) {
+		if ( this.inputs.permissions.getValue().includes( 'write-protected' ) ) {
 			clientScopes.push( 'editprotected' );
 		}
 

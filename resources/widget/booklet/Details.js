@@ -8,8 +8,8 @@
 	 * @param {Object} cfg - Config.
 	 * @param {Object} cfg.client - Client.
 	 */
-	var Details = function ( cfg ) {
-		var firstPageName = 'details';
+	const Details = function ( cfg ) {
+		const firstPageName = 'details';
 
 		Details.super.call( this, cfg );
 

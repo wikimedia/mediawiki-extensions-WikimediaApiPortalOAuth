@@ -8,7 +8,7 @@
 	 * @param {string} name - Unique symbolic name of page.
 	 * @param {Object} cfg - Config.
 	 */
-	var DetailsReset = function ( name, cfg ) {
+	const DetailsReset = function ( name, cfg ) {
 		DetailsReset.super.call( this, name, cfg );
 	};
 
@@ -30,7 +30,7 @@
 	};
 
 	DetailsReset.prototype.addLayouts = function () {
-		var layout, alert;
+		let layout, alert;
 
 		this.secretLabel = new OO.ui.LabelWidget();
 		this.accessTokenLabel = new OO.ui.LabelWidget( {

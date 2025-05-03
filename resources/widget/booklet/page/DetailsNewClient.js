@@ -8,7 +8,7 @@
 	 * @param {string} name - Unique symbolic name of page.
 	 * @param {Object} cfg - Config.
 	 */
-	var DetailsNewClient = function ( name, cfg ) {
+	const DetailsNewClient = function ( name, cfg ) {
 		DetailsNewClient.super.call( this, name, cfg );
 	};
 
@@ -24,7 +24,7 @@
 	};
 
 	DetailsNewClient.prototype.addLayouts = function () {
-		var successMessage = new OO.ui.MessageWidget( {
+		const successMessage = new OO.ui.MessageWidget( {
 			type: 'success',
 			label: mw.message( 'wikimediaapiportaloauth-ui-client-created' ).text()
 		} );

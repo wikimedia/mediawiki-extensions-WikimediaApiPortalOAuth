@@ -8,8 +8,8 @@
 	 * @param {string} name - Unique symbolic name of page.
 	 * @param {Object} cfg - Config.
 	 */
-	var Details = function ( name, cfg ) {
-		var actionApi;
+	const Details = function ( name, cfg ) {
+		let actionApi;
 		Details.super.call( this, name, cfg );
 
 		actionApi = new mw.ForeignApi( mw.apiportal.util.targetApiURL );
@@ -23,7 +23,7 @@
 	};
 
 	Details.prototype.addLayouts = function () {
-		var layout = new OO.ui.FieldsetLayout( {
+		const layout = new OO.ui.FieldsetLayout( {
 			items: [
 				new OO.ui.FieldLayout( new OO.ui.LabelWidget( { label: this.client.get( 'name' ) } ), {
 					align: 'top',
@@ -53,7 +53,7 @@
 	};
 
 	Details.prototype.resetSecret = function () {
-		var deferred = $.Deferred(),
+		const deferred = $.Deferred(),
 			clientKey = this.client.get( 'client_key' );
 
 		// Not using .post since it only supports JSON, and OAuth REST API is not.
@@ -62,11 +62,11 @@
 			data: {},
 			contentType: 'application/x-www-form-urlencoded'
 		} )
-			.then( function ( response ) {
+			.then( ( response ) => {
 				deferred.resolve( response );
 			} )
-			.catch( function ( error, detail ) {
-				var xhr = error === 'http' ? detail.xhr : undefined;
+			.catch( ( error, detail ) => {
+				const xhr = error === 'http' ? detail.xhr : undefined;
 				deferred.reject( mw.apiportal.util.getErrorTextFromXHR( xhr ) );
 			} );
 
@@ -74,7 +74,7 @@
 	};
 
 	Details.prototype.getAbilities = function () {
-		var stage = parseInt( this.client.get( 'stage' ) );
+		const stage = parseInt( this.client.get( 'stage' ) );
 		return stage !== 0 && stage !== 1 ? { reset: false, close: true } : null;
 	};
 

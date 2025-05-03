@@ -4,7 +4,7 @@
 	 * @constructor
 	 * @param {Object} data - Client data.
 	 */
-	var ClientEntity = function ( data ) {
+	const ClientEntity = function ( data ) {
 		this.data = data || {};
 	};
 
@@ -39,7 +39,7 @@
 		def = def || null;
 
 		if (
-			ClientEntity.static.fields.indexOf( prop ) !== -1 &&
+			ClientEntity.static.fields.includes( prop ) &&
 			Object.prototype.hasOwnProperty.call( this.data, prop )
 		) {
 			return this.data[ prop ];

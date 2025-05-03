@@ -6,8 +6,8 @@
 	 * @param {Object} cfg.$element - JQuery selector (API management panel).
 	 * @param {number} cfg.pageLimit - Page limit number.
 	 */
-	var KeyOverview = function ( cfg ) {
-		var actionApi = new mw.ForeignApi( mw.apiportal.util.targetApiURL );
+	const KeyOverview = function ( cfg ) {
+		const actionApi = new mw.ForeignApi( mw.apiportal.util.targetApiURL );
 
 		this.$element = cfg.$element;
 		this.pageLimit = cfg.pageLimit;
@@ -53,7 +53,7 @@
 
 		this.restApi.get( '/oauth2/client', data )
 			.then(
-				function ( response ) {
+				( response ) => {
 					this.showLoading( false );
 					if ( Object.prototype.hasOwnProperty.call( response, 'clients' ) ) {
 						this.buildList( response.clients );
@@ -63,17 +63,17 @@
 							this.buildPagination( response.total );
 						}
 					}
-				}.bind( this ),
-				function ( error, detail ) {
-					var xhr = error === 'http' ? detail.xhr : undefined;
+				},
+				( error, detail ) => {
+					const xhr = error === 'http' ? detail.xhr : undefined;
 					this.showLoading( false );
 					this.processError( mw.apiportal.util.getErrorTextFromXHR( xhr ) );
-				}.bind( this )
+				}
 			);
 	};
 
 	KeyOverview.prototype.buildList = function ( clients ) {
-		var clientEntity, i;
+		let clientEntity, i;
 		this.$itemContainer.children().remove();
 		for ( i = 0; i < clients.length; i++ ) {
 			clientEntity = new mw.apiportal.ClientEntity( clients[ i ] );
@@ -92,7 +92,7 @@
 	};
 
 	KeyOverview.prototype.buildPagination = function ( total ) {
-		var pages = Math.ceil( total / this.pageLimit ),
+		let pages = Math.ceil( total / this.pageLimit ),
 			$pagination = $( '<nav>' ),
 			$paginationInner = $( '<ul>' ).addClass( 'pagination justify-content-center' ),
 			i,
@@ -104,8 +104,8 @@
 				.attr( 'href', '#' )
 				.attr( 'data-offset', i * this.pageLimit )
 				.html( i + 1 );
-			$anchor.on( 'click', function ( e ) {
-				var $target,
+			$anchor.on( 'click', ( e ) => {
+				let $target,
 					data;
 
 				e.preventDefault();
@@ -119,7 +119,7 @@
 				this.loadClients( { offset: data.offset } );
 				$paginationInner.children( '.page-item' ).removeClass( 'active' );
 				$target.parent( 'li' ).addClass( 'active' );
-			}.bind( this ) );
+			} );
 			$paginationInner.append(
 				// The following classes are used here:
 				// * page-item
@@ -135,7 +135,7 @@
 	};
 
 	KeyOverview.prototype.makeNewClient = function () {
-		var windowManager = OO.ui.getWindowManager(),
+		let windowManager = OO.ui.getWindowManager(),
 			instance;
 
 		this.dialog = new mw.apiportal.dialog.Client( {
@@ -145,11 +145,11 @@
 		windowManager.addWindows( [ this.dialog ] );
 		instance = windowManager.openWindow( this.dialog );
 		instance.closed.then(
-			function ( result ) {
+			( result ) => {
 				if ( result && Object.prototype.hasOwnProperty.call( result, 'update' ) && result.update ) {
 					this.loadClients();
 				}
-			}.bind( this )
+			}
 		);
 	};
 

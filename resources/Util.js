@@ -1,7 +1,7 @@
 ( function () {
-	var Util = {
+	const Util = {
 		getErrorTextFromXHR: function ( xhr ) {
-			var message = '';
+			let message = '';
 			if ( xhr && xhr.responseJSON !== undefined ) {
 				message = xhr.responseJSON.error || xhr.responseJSON.message;
 			}

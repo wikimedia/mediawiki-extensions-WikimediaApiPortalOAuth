@@ -8,8 +8,8 @@
 	 * @param {Object} cfg - Config.
 	 * @param {Object} cfg.client - Client.
 	 */
-	var NewClient = function ( cfg ) {
-		var firstPageName = 'new';
+	const NewClient = function ( cfg ) {
+		const firstPageName = 'new';
 
 		NewClient.super.call( this, cfg );
 

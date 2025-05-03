@@ -7,7 +7,7 @@
 	 * @constructor
 	 * @param {Object} client - Client.
 	 */
-	var Client = function ( client ) {
+	const Client = function ( client ) {
 		mw.apiportal.widget.Client.super.call( this, {} );
 
 		this.client = client;
@@ -65,7 +65,7 @@
 	};
 
 	Client.prototype.createActions = function () {
-		var detailsButton = new OO.ui.ButtonWidget( {
+		const detailsButton = new OO.ui.ButtonWidget( {
 				label: mw.message( 'wikimediaapiportaloauth-ui-client-action-view-details' ).text(),
 				framed: false,
 				classes: [ 'actions-details' ]
@@ -88,7 +88,7 @@
 	};
 
 	Client.prototype.makeStatusMessage = function () {
-		var clientStatus = parseInt( this.client.get( 'stage' ) ),
+		let clientStatus = parseInt( this.client.get( 'stage' ) ),
 			status,
 			label,
 			layout = new OO.ui.HorizontalLayout( { classes: [ 'client-status' ] } );
@@ -139,7 +139,7 @@
 	};
 
 	Client.prototype.showDetails = function () {
-		var windowManager = OO.ui.getWindowManager();
+		const windowManager = OO.ui.getWindowManager();
 		this.dialog = new mw.apiportal.dialog.Client( {
 			size: 'medium',
 			client: this.client,
