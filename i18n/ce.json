@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"appmanagement": "API догӀанаш",
+	"wikimediaapiportaloauth-ui-client-action-view-details": "Мадарра хьажа",
+	"wikimediaapiportaloauth-ui-client-action-disable": "ДӀайайъа",
+	"wikimediaapiportaloauth-ui-client-field-name": "Программин цӀе:",
+	"wikimediaapiportaloauth-ui-client-field-client-key": "Клиентан ID:",
+	"wikimediaapiportaloauth-ui-client-field-permissions": "Бакъонаш:",
+	"wikimediaapiportaloauth-ui-client-field-permissions-read": "АгӀонаш йеша",
+	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "Ларйина агӀонаш тайар",
+	"wikimediaapiportaloauth-ui-action-cancel": "Йухайаккхар",
+	"wikimediaapiportaloauth-ui-action-create": "Кхолла",
+	"wikimediaapiportaloauth-ui-registration-label": "Кхоьллина $1",
+	"wikimediaapiportaloauth-ui-field-secret": "Клиентан къайле:",
+	"wikimediaapiportaloauth-ui-action-done": "Кийчча йу",
+	"wikimediaapiportaloauth-ui-field-access-token": "ТӀекхачаран токен:",
+	"wikimediaapiportaloauth-ui-client-status-rejected": "Йухатоьхна",
+	"wikimediaapiportaloauth-ui-client-status-expired": "Чекхйаьлла",
+	"wikimediaapiportaloauth-ui-client-status-disabled": "ДӀайайина",
+	"wikimediaapiportaloauth-ui-client-status-approved": "Магийна",
+	"wikimediaapiportaloauth-ui-client-status-wrapper": "Статус: $1"
+}
