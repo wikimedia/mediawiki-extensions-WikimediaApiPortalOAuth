@@ -3,7 +3,8 @@
 		"authors": [
 			"محمد أحمد عبد الفتاح",
 			"Cigaryno",
-			"Meno25"
+			"Meno25",
+			"Mohammed Qays"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "يتيح لمستخدمي بوابة API الخاصة بـ Wikimedia إنشاء عملاء OAuth وإدارتهم عن بُعد",
@@ -41,7 +42,7 @@
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "فشل الطلب. يرجى المحاولة مرة أخرى لاحقًا.",
 	"wikimediaapiportaloauth-ui-field-secret": "سر العميل:",
 	"wikimediaapiportaloauth-ui-client-details-reset-title": "إعادة ضبط السرية",
-	"wikimediaapiportaloauth-ui-action-done": "تم",
+	"wikimediaapiportaloauth-ui-action-done": "نُفّذ",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "احفظ بيانات الاعتماد هذه بأمان. لن تتمكن من الوصول إليها مرة أخرى عبر بوابة API.",
 	"wikimediaapiportaloauth-ui-field-access-token": "رمز الوصول:",
 	"wikimediaapiportaloauth-ui-client-created": "تم إنشاء مفتاح API",
