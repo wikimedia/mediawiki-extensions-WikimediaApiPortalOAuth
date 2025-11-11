@@ -8,7 +8,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:WikimediaApiPortalOAuth",
 	"descriptionmsg": "wikimediaapiportaloauth-desc",
 	"requires": {
-		"MediaWiki": ">= 1.45"
+		"MediaWiki": ">= 1.46"
 	},
 	"MessagesDirs": {
 		"WikimediaApiPortalOAuth": "i18n"
