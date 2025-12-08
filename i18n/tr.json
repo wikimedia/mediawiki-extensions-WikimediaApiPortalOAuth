@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"MuratTheTurkish"
+			"MuratTheTurkish",
+			"SaldırganSincap"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "Wikimedia API Portali kullanıcılarının OAuth istemcilerini uzaktan oluşturmalarını ve yönetmelerini sağlar",
@@ -25,6 +26,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions": "İzinler:",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Sayfaları oku",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Sayfaları oluşturun ve düzenleyin",
+	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "Korumalı sayfaları değiştir",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Kullanım şartları:",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Wikimedia [[foundation:Special:MyLanguage/Terms_of_Use|kullanım şartlarını]] kabul ediyorum. Bu şartları ihlal edersem API anahtarımın devre dışı bırakılabileceğini kabul ediyorum.",
 	"wikimediaapiportaloauth-ui-new-client-title": "API anahtarı oluştur",
