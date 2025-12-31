@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Woytecr"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "Omogućuje korisnicima Portala Vikimedijinog priložnika daljinsko stvaranje i upravljanje OAuth klijentima",
@@ -27,7 +28,7 @@
 	"wikimediaapiportaloauth-ui-error-must-be-set": "Ovo polje mora biti postavljeno",
 	"wikimediaapiportaloauth-ui-error-consumer-exists": "Već postoji klijent s ovim imenom",
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "Nevažeći URI za preusmjeravanje",
-	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Korisnici se preusmjeravaju na ovaj put nakon uspješne autorizacije. [[Authentication#Choosing_a_redirect_URI|Saznajte više.]]",
+	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Korisnici se preusmjeravaju na ovaj put nakon uspješne autorizacije. [[Authentication#Choosing a redirect URI|Saznajte više.]]",
 	"wikimediaapiportaloauth-ui-action-done": "Gotovo",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "Spremite ove vjerodajnice na sigurno. Nećete im moći ponovno pristupiti putem Izvršničkog portala.",
 	"wikimediaapiportaloauth-ui-field-access-token": "Pristupni žeton:",
