@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Woytecr"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "Omogućuje korisnicima Portala Vikimedijinog priložnika daljinsko stvaranje i upravljanje OAuth klijentima",
