@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rail"
+			"Rail",
+			"Woytecr"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "Umożliwia użytkownikom Portalu API Wikimedii zdalne tworzenie i zarządzanie klientami OAuth",
@@ -35,7 +36,7 @@
 	"wikimediaapiportaloauth-ui-error-must-be-set": "Musisz podać wartość tego pola",
 	"wikimediaapiportaloauth-ui-error-consumer-exists": "Klient o tej nazwie jest już zarejestrowany",
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "Nieprawidłowy adres URL przekierowania",
-	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Użytkownicy są przekierowywani pod ten adres po pomyślnym uwierzytelnieniu. [[Authentication#Choosing_a_redirect_URI|Dowiedz się więcej.]]",
+	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Użytkownicy są przekierowywani pod ten adres po pomyślnym uwierzytelnieniu. [[Authentication#Choosing a redirect URI|Dowiedz się więcej.]]",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "Nie można pozyskać tokena dostępu",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "Żądanie zakończyło się niepowodzeniem. Spróbuj ponownie później.",
 	"wikimediaapiportaloauth-ui-field-secret": "Sekret klienta:",
@@ -53,5 +54,5 @@
 	"wikimediaapiportaloauth-ui-action-new-client": "Stwórz klucz",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Status: $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "Zanim stworzysz klucz API, prosimy o potwierdzenie adresu e-mail w [[Special:Preferences|preferencjach]].",
-	"wikimediaapiportaloauth-page-introduction": "Stwórz klucz API, aby zacząć budować aplikacje korzystające z darmowych baz wiedzy. Przeczytaj o [[Authentication|uwierzytelnianiu przez API]] oraz [[Rate limits|limitach przepustowości]]."
+	"wikimediaapiportaloauth-page-introduction": "Stwórz klucz API, aby zacząć budować aplikacje związane z wolną wiedzą. Przeczytaj o [[Authentication|uwierzytelnianiu przez API]] oraz [[Rate limits|limitach przepustowości]]."
 }
