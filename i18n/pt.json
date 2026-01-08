@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Woytecr"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "Permite que os utilizadores do portal da API da Wikimedia criem e administrem clientes OAuth remotamente",
@@ -36,7 +37,7 @@
 	"wikimediaapiportaloauth-ui-error-must-be-set": "Este campo tem de estar definido",
 	"wikimediaapiportaloauth-ui-error-consumer-exists": "Já está registado um cliente com este nome",
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "URI de retorno inválido",
-	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Os utilizadores são redirecionados para este caminho após a autorização. [[Authentication#Choosing_a_redirect_URI|Saiba mais.]]",
+	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Os utilizadores são redirecionados para este caminho após a autorização. [[Authentication#Choosing a redirect URI|Saiba mais.]]",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "Não é possível obter a chave de acesso",
 	"wikimediaapiportaloauth-ui-error-request-client-fail": "O pedido falhou. Tente novamente mais tarde, por favor.",
 	"wikimediaapiportaloauth-ui-field-secret": "Segredo do cliente:",
