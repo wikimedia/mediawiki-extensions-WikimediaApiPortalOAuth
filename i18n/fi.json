@@ -4,9 +4,12 @@
 			"MITO",
 			"Nike",
 			"Pyscowicz",
+			"Samoasambia",
 			"Yupik"
 		]
 	},
+	"action-wikimediaapiportaloauth-manage-oauth": "hallinoida OAuth-asiakkaita",
+	"right-wikimediaapiportaloauth-manage-oauth": "Hallinoida OAuth-asiakkaita",
 	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "Muokata suojattuja sivuja",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Käyttöehdot:",
 	"wikimediaapiportaloauth-ui-action-cancel": "Peruuta",
