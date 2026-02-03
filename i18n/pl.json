@@ -26,6 +26,7 @@
 	"wikimediaapiportaloauth-ui-client-field-permissions": "Uprawnienia:",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Czytanie treści stron",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Twórz i edytuj strony",
+	"wikimediaapiportaloauth-ui-client-field-permissions-write-protected": "Edycja stron zabezpieczonych",
 	"wikimediaapiportaloauth-ui-client-field-checks": "Warunki użytkowania:",
 	"wikimediaapiportaloauth-ui-client-field-terms-of-service": "Akceptuję [[foundation:Special:MyLanguage/Terms_of_Use|warunki użytkowania]] Fundacji Wikimedia. Ponadto zdaję sobie sprawę, że mój klucz API może zostać dezaktywowany, jeśli złamię zawarte postanowienia.",
 	"wikimediaapiportaloauth-ui-new-client-title": "Stwórz klucz API",
