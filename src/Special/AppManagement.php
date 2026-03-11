@@ -36,13 +36,13 @@ class AppManagement extends SpecialPage {
 
 		if ( !$this->getUser()->isEmailConfirmed() ) {
 			$output->addHTML(
-				$this->msg( 'wikimediaapiportaloauth-email-not-confirmed' )
+				$this->msg( 'wikimediaapiportaloauth-email-not-confirmed' )->parse()
 			);
 			return;
 		}
 
 		$output->addHTML(
-			$this->msg( 'wikimediaapiportaloauth-page-introduction' )
+			$this->msg( 'wikimediaapiportaloauth-page-introduction' )->parse()
 		);
 
 		$output->addModules(
