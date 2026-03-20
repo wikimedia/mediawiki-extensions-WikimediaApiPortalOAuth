@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung",
 			"Woytecr"
 		]
@@ -9,7 +10,7 @@
 	"appmanagement": "Priložnički ključevi",
 	"action-wikimediaapiportaloauth-manage-oauth": "upravljanje OAuth klijentima",
 	"right-wikimediaapiportaloauth-manage-oauth": "Upravljanje OAuth klijentima",
-	"wikimediaapiportaloauth-api-error-invalid-action": "Radnja '$1' nije važeća",
+	"wikimediaapiportaloauth-api-error-invalid-action": "Radnja '$1' nije ispravna",
 	"wikimediaapiportaloauth-ui-client-action-disable": "Onemogući",
 	"wikimediaapiportaloauth-ui-client-field-account-type-developer": "Prilog na strani servera (tradicionalne veb-stranice i prilozi veb-servera)",
 	"wikimediaapiportaloauth-ui-client-field-account-type-mobile": "Strana klijenta ili instalirani prilog (mobilni, stolni i jednostrani prilozi)",
