@@ -2,18 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Winston Sung",
-			"Woytecr"
+			"Woytecr",
+			"Aca"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "Omogućuje korisnicima Portala Vikimedijinog priložnika daljinsko stvaranje i upravljanje OAuth klijentima",
 	"appmanagement": "Priložnički ključevi",
 	"action-wikimediaapiportaloauth-manage-oauth": "upravljanje OAuth klijentima",
 	"right-wikimediaapiportaloauth-manage-oauth": "Upravljanje OAuth klijentima",
-	"wikimediaapiportaloauth-api-error-invalid-action": "Radnja '$1' nije važeća",
+	"wikimediaapiportaloauth-api-error-invalid-action": "Radnja '$1' nije ispravna",
 	"wikimediaapiportaloauth-ui-client-action-disable": "Onemogući",
 	"wikimediaapiportaloauth-ui-client-field-account-type-developer": "Prilog na strani servera (tradicionalne veb-stranice i prilozi veb-servera)",
 	"wikimediaapiportaloauth-ui-client-field-account-type-mobile": "Strana klijenta ili instalirani prilog (mobilni, stolni i jednostrani prilozi)",
-	"wikimediaapiportaloauth-ui-client-field-account-type-bot": "Osobni priložnički žeton (samo za vašu upotrebu)",
+	"wikimediaapiportaloauth-ui-client-field-account-type-bot": "Lični API token (samo za vašu upotrebu)",
 	"wikimediaapiportaloauth-ui-client-field-permissions": "Dozvole:",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read": "Čitanje stranica",
 	"wikimediaapiportaloauth-ui-client-field-permissions-read-write": "Pravljenje i uređivanje stranica",
@@ -27,11 +28,11 @@
 	"wikimediaapiportaloauth-ui-registration-label": "Napravljeno $1",
 	"wikimediaapiportaloauth-ui-error-must-be-set": "Ovo polje mora biti postavljeno",
 	"wikimediaapiportaloauth-ui-error-consumer-exists": "Već postoji klijent s ovim imenom",
-	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "Nevažeći URI za preusmjeravanje",
+	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "Neispravan URI za preusmjeravanje",
 	"wikimediaapiportaloauth-ui-client-field-callback-uri-help": "Korisnici se preusmjeravaju na ovaj put nakon uspješne autorizacije. [[Authentication#Choosing_a_redirect_URI|Saznajte više.]]",
 	"wikimediaapiportaloauth-ui-action-done": "Gotovo",
 	"wikimediaapiportaloauth-ui-client-secret-alert": "Spremite ove vjerodajnice na sigurno. Nećete im moći ponovno pristupiti putem Izvršničkog portala.",
-	"wikimediaapiportaloauth-ui-field-access-token": "Pristupni žeton:",
+	"wikimediaapiportaloauth-ui-field-access-token": "Pristupni token:",
 	"wikimediaapiportaloauth-ui-client-created": "Priložnički ključ je napravljen",
 	"wikimediaapiportaloauth-ui-client-status-proposed-help": "Prije nego što drugi korisnici mogu autorizirati vašeg klijenta, moraju ga pregledati i odobriti administratori Wikimedia OAuth.",
 	"wikimediaapiportaloauth-ui-client-status-rejected": "Odbijen",
