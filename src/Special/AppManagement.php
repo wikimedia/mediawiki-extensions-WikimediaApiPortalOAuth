@@ -15,7 +15,11 @@ class AppManagement extends SpecialPage {
 	 * AppManagement constructor.
 	 */
 	public function __construct() {
-		parent::__construct( 'AppManagement', 'wikimediaapiportaloauth-manage-oauth' );
+		parent::__construct( 'AppManagement' );
+	}
+
+	public function getRestriction(): string {
+		return 'wikimediaapiportaloauth-manage-oauth';
 	}
 
 	/**
