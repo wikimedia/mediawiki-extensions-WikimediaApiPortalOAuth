@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ykhwong"
+			"Ykhwong",
+			"Tensama0415"
 		]
 	},
 	"appmanagement": "API 키",
@@ -25,12 +26,12 @@
 	"wikimediaapiportaloauth-ui-action-create": "만들기",
 	"wikimediaapiportaloauth-ui-error-invalid-callback-url": "유효하지 않은 리다이렉트 URI",
 	"wikimediaapiportaloauth-ui-error-cannot-get-token": "접근 토큰을 검색할 수 없습니다",
-	"wikimediaapiportaloauth-ui-error-request-client-fail": "클라이언트 요청을 실패했습니다!",
+	"wikimediaapiportaloauth-ui-error-request-client-fail": "요청이 실패했습니다. 나중에 다시 시도해 주세요.",
 	"wikimediaapiportaloauth-ui-action-done": "완료",
 	"wikimediaapiportaloauth-ui-field-access-token": "접근 토큰:",
 	"wikimediaapiportaloauth-ui-client-created": "API 키가 만들어졌습니다",
 	"wikimediaapiportaloauth-ui-client-status-rejected": "거부됨",
 	"wikimediaapiportaloauth-ui-action-new-client": "키 만들기",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "상태: $1",
-	"wikimediaapiportaloauth-email-not-confirmed": "이메일이 인증되지 않았습니다"
+	"wikimediaapiportaloauth-email-not-confirmed": "API 키를 생성하기 전에 [[Special:Preferences|사용자 환경설정]]을 통해 이메일 주소를 인증하세요."
 }
