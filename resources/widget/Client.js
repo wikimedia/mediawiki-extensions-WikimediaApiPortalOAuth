@@ -127,7 +127,6 @@
 				popup: {
 					// Message that can be used here:
 					// * wikimediaapiportaloauth-ui-client-status-proposed-help
-					// eslint-disable-next-line mediawiki/msg-doc
 					$content: $( '<span>' ).text( mw.message( status.help ).text() ),
 					padded: true,
 					align: 'forwards'
