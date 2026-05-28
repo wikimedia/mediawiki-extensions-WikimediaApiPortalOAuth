@@ -7,7 +7,7 @@
 	},
 	"wikimediaapiportaloauth-desc": "위키미디어 API 포털 사용자가 OAuth 클라이언트를 원격으로 생성하고 관리할 수 있도록 합니다",
 	"appmanagement": "API 키",
-	"action-wikimediaapiportaloauth-manage-oauth": "OAuth 클라이언트를 관리할",
+	"action-wikimediaapiportaloauth-manage-oauth": "OAuth 클라이언트 관리",
 	"right-wikimediaapiportaloauth-manage-oauth": "OAuth 클라이언트 관리",
 	"wikimediaapiportaloauth-api-error-invalid-action": "작업 '$1'이 유효하지 않음",
 	"wikimediaapiportaloauth-ui-client-action-view-details": "자세한 내용 보기",
@@ -46,7 +46,7 @@
 	"wikimediaapiportaloauth-ui-client-secret-alert": "이 자격 증명을 안전하게 보관하세요. API 포털을 통해서는 다시 접근할 수 없습니다.",
 	"wikimediaapiportaloauth-ui-field-access-token": "접근 토큰:",
 	"wikimediaapiportaloauth-ui-client-created": "API 키가 만들어졌습니다",
-	"wikimediaapiportaloauth-ui-client-status-proposed": "승인 보류 중",
+	"wikimediaapiportaloauth-ui-client-status-proposed": "승인 대기 중",
 	"wikimediaapiportaloauth-ui-client-status-proposed-help": "다른 사용자가 클라이언트를 승인하려면 먼저 위키미디어 OAuth 관리자의 검토 및 승인을 받아야 합니다.",
 	"wikimediaapiportaloauth-ui-client-status-rejected": "거부됨",
 	"wikimediaapiportaloauth-ui-client-status-expired": "만료됨",
@@ -54,6 +54,6 @@
 	"wikimediaapiportaloauth-ui-client-status-approved": "승인됨",
 	"wikimediaapiportaloauth-ui-action-new-client": "키 만들기",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "상태: $1",
-	"wikimediaapiportaloauth-email-not-confirmed": "API 키를 생성하기 전에 [[Special:Preferences|사용자 환경설정]]을 통해 이메일 주소를 인증하세요.",
+	"wikimediaapiportaloauth-email-not-confirmed": "API 키를 생성하기 전에 [[Special:Preferences|사용자 환경 설정]]을 통해 이메일 주소를 인증하세요.",
 	"wikimediaapiportaloauth-page-introduction": "무료 지식 앱 개발을 시작하려면 API 키를 생성하세요. [[Authentication|API 인증]] 및 [[Rate limits|속도 제한]]에 대해 더 알아보세요."
 }
