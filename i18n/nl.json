@@ -4,7 +4,8 @@
 			"Mainframe98",
 			"McDutchie",
 			"Romaine",
-			"Rots61"
+			"Rots61",
+			"Siebrand"
 		]
 	},
 	"wikimediaapiportaloauth-desc": "Hiermee kunnen gebruikers van het Wikimedia API-portaal OAuth-cliënten op afstand aanmaken en beheren",
@@ -57,5 +58,5 @@
 	"wikimediaapiportaloauth-ui-action-new-client": "Sleutel aanmaken",
 	"wikimediaapiportaloauth-ui-client-status-wrapper": "Status: $1",
 	"wikimediaapiportaloauth-email-not-confirmed": "Voordat u een API-sleutel aanmaakt, moet u uw e-mailadres bevestigen via uw [[Special:Preferences|gebruikersvoorkeuren]].",
-	"wikimediaapiportaloauth-page-introduction": "Maak een API-sleutel om te beginnen met het bouwen van apps voor vrije kennis. Meer informatie over [[Authentication|API-authenticatie]] en [[Rate limits|snelheidsbeperkingen]]."
+	"wikimediaapiportaloauth-page-introduction": "Maak een API-sleutel om te beginnen met het bouwen van apps voor vrije kennis. Meer informatie over [[Authentication|API-authenticatie]] en [[Rate limits|tempobeperkingen]]."
 }
